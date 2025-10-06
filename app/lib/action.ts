@@ -1,48 +1,35 @@
 'use server';
-
-import StateBot from '@/app/lib/definition';
-
-export async function fetchGemini(
-  prevState: StateBot,
-  formData: FormData
-): Promise<StateBot> {
-
-const url = process.env.N8N_URL_CHAT;
-console.log(url);
-
-try {
-  const message = String(formData.get("message") || "").trim();
-  const sessionId = String(formData.get("sessionId") || "user_123").trim();
-
-  const body = new FormData();
-  body.append("message", message);
-  body.append("sessionId", sessionId);
-
-  const response = await fetch(url!, {
-    method: "POST",
-    body
-  });
-
-  if (!response.ok) {
-    throw new Error(`Request failed with status ${response.status}`);
-  }
-
-  // Safely handle empty responses
-  const text = await response.text();
-  if (!text) {
-    throw new Error("Empty response from API");
-  }
-
-  let data;
+ 
+import sql from '@/app/lib/db';
+import { signIn } from '@/auth';
+import { AuthError } from 'next-auth';
+import { User } from '@/lib/definition';
+ 
+export async function authenticate(
+  prevState: string | undefined,
+  formData: FormData,
+) {
   try {
-    data = JSON.parse(text);
-  } catch {
-    data = { reply: text, status: "non-json" };
+    await signIn('credentials', formData);
+  } catch (error) {
+    if (error instanceof AuthError) {
+      switch (error.type) {
+        case 'CredentialsSignin':
+          return 'Invalid credentials.';
+        default:
+          return 'Something went wrong.';
+      }
+    }
+    throw error;
   }
-
-  return { data, status: "ok" };
-} catch (err) {
-  console.error(err);
-  return { data: null, status: "failed" };
 }
+
+export async function getUsers() {
+  try {
+    const users = await sql<User[]>`SELECT * FROM users`;
+    return users;
+  } catch (error) {
+    console.error('Database Error:', error);
+    throw new Error('Failed to fetch revenue data.');
+  }
 }

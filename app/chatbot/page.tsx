@@ -2,8 +2,8 @@
 
 import Link from 'next/link';
 import { useActionState } from 'react';
-import { fetchGemini } from '@/app/lib/action';
-import StateBot from '@/app/lib/definition';
+import { fetchGemini } from '@/app/lib/data';
+import { StateBot } from '@/app/lib/definition';
 
 export default function Chatbot(){
   const initialState: StateBot = { message: null, status: '' };
@@ -38,9 +38,9 @@ export default function Chatbot(){
             <h3 className="font-bold mb-2">Jawaban</h3>
             {pending ? (
               <div className="text-gray-400 italic">Loading...</div>
-            ) : state?.data?.reply ? (
+            ) : state?.message ? (
               <div className="whitespace-pre-line p-3 border rounded bg-gray-50">
-                {state.data.reply}
+                {state.message}
               </div>
             ) : (
               <p className="text-gray-400">No response yet</p>

@@ -12,6 +12,12 @@ export default function Home() {
         <li>
           <Link className="text-blue-500 hover:underline" href="/chatbot">Chatbot</Link> 
         </li>
+        <li>
+          <Link className="text-blue-500 hover:underline" href="/extract">Ekstrak PDF</Link> 
+        </li>
+        <li>
+          <Link className="text-blue-500 hover:underline" href="/dashboard">Dashboard</Link> 
+        </li>
       </ul>
     </div>
   );

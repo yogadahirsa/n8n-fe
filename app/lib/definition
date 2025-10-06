@@ -1,4 +1,0 @@
-export type StateBot = {
-  data: any;
-  status: string;
-};
