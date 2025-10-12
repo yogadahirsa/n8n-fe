@@ -6,7 +6,7 @@ import postgres from 'postgres';
 import { authConfig } from './auth.config';
 import { z } from 'zod';
  
-const sql = postgres(process.env.DATABASE_URL, { ssl: 'require' });
+const sql = postgres(process.env.DATABASE_URL, { ssl: false });
  
 async function getUser(email: string): Promise<User | undefined> {
   try {
