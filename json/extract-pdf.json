@@ -1,0 +1,110 @@
+{
+  "name": "extract-pdf",
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "send-pdf",
+        "responseMode": "responseNode",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2.1,
+      "position": [
+        0,
+        0
+      ],
+      "id": "9cfa926d-d864-4b1c-8489-72c1b5b5eeba",
+      "name": "Webhook",
+      "webhookId": "bcd4b985-6b91-48c9-9443-3d7b8d4f287d"
+    },
+    {
+      "parameters": {
+        "operation": "pdf",
+        "binaryPropertyName": "=dataPdf",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.extractFromFile",
+      "typeVersion": 1,
+      "position": [
+        208,
+        0
+      ],
+      "id": "fd2ca799-2096-4dd9-9b0d-cbf10296ae59",
+      "name": "Extract from File"
+    },
+    {
+      "parameters": {
+        "jsCode": "// SPBE Document Parser for RAG Processing\n// Input: Raw text from SPBE document\n// Output: Array of parsed sections with metadata\n\nfunction parseSPBEDocument(inputText) {\n    const results = [];\n    \n    // Clean and normalize the input text\n    const normalizedText = inputText\n        .replace(/\\r\\n/g, '\\n')\n        .replace(/\\r/g, '\\n')\n        .trim();\n    \n    // Split text into lines for processing\n    const lines = normalizedText.split('\\n');\n    \n    let currentDomain = null;\n    let currentAspek = null;\n    let currentIndikator = null;\n    let currentContent = [];\n    let inSection = false;\n    \n    for (let i = 0; i < lines.length; i++) {\n        const line = lines[i].trim();\n        \n        // Skip empty lines\n        if (!line) {\n            if (inSection) currentContent.push('');\n            continue;\n        }\n        \n        // Check for Domain pattern\n        const domainMatch = line.match(/^Domain\\s+(\\d+)\\s*[:]\\s*(.+)$/i);\n        if (domainMatch) {\n            // Save previous section if exists\n            if (inSection && currentContent.length > 0) {\n                results.push(createSection(currentDomain, currentAspek, currentIndikator, currentContent));\n            }\n            \n            currentDomain = {\n                number: parseInt(domainMatch[1]),\n                name: domainMatch[2].trim()\n            };\n            currentAspek = null;\n            currentIndikator = null;\n            currentContent = [];\n            inSection = true;\n            continue;\n        }\n        \n        // Check for Aspek pattern\n        const aspekMatch = line.match(/^Aspek\\s+(\\d+)\\s*[:]\\s*(.+)$/i);\n        if (aspekMatch) {\n            // Save previous section if exists\n            if (inSection && currentContent.length > 0 && currentIndikator) {\n                results.push(createSection(currentDomain, currentAspek, currentIndikator, currentContent));\n            }\n            \n            currentAspek = {\n                number: parseInt(aspekMatch[1]),\n                name: aspekMatch[2].trim()\n            };\n            currentIndikator = null;\n            currentContent = [];\n            inSection = true;\n            continue;\n        }\n        \n        // Check for Indikator pattern\n        const indikatorMatch = line.match(/^Indikator\\s+(\\d+)\\s*[:]\\s*(.+)$/i);\n        if (indikatorMatch) {\n            // Save previous section if exists\n            if (inSection && currentContent.length > 0 && currentIndikator) {\n                results.push(createSection(currentDomain, currentAspek, currentIndikator, currentContent));\n            }\n            \n            currentIndikator = {\n                number: parseInt(indikatorMatch[1]),\n                name: indikatorMatch[2].trim()\n            };\n            currentContent = [];\n            inSection = true;\n            continue;\n        }\n        \n        // Add content to current section\n        if (inSection) {\n            currentContent.push(line);\n        }\n    }\n    \n    // Save the last section\n    if (inSection && currentContent.length > 0) {\n        results.push(createSection(currentDomain, currentAspek, currentIndikator, currentContent));\n    }\n    \n    return results;\n}\n\nfunction createSection(domain, aspek, indikator, content) {\n    // Clean up content - remove empty lines at start and end\n    const cleanContent = content\n        .filter(line => line.trim() !== '')\n        .join('\\n')\n        .trim();\n    \n    // Generate section ID for reference\n    const sectionId = generateSectionId(domain, aspek, indikator);\n    \n    return {\n        id: sectionId,\n        content: cleanContent,\n        metadata: {\n            domain: domain ? {\n                number: domain.number,\n                name: domain.name,\n                label: `Domain ${domain.number}: ${domain.name}`\n            } : null,\n            aspek: aspek ? {\n                number: aspek.number,\n                name: aspek.name,\n                label: `Aspek ${aspek.number}: ${aspek.name}`\n            } : null,\n            indikator: indikator ? {\n                number: indikator.number,\n                name: indikator.name,\n                label: `Indikator ${indikator.number}: ${indikator.name}`\n            } : null,\n            section_type: getSectionType(domain, aspek, indikator),\n            content_length: cleanContent.length,\n            word_count: cleanContent.split(/\\s+/).length\n        }\n    };\n}\n\nfunction generateSectionId(domain, aspek, indikator) {\n    let id = '';\n    if (domain) id += `D${domain.number}`;\n    if (aspek) id += `-A${aspek.number}`;\n    if (indikator) id += `-I${indikator.number}`;\n    return id || 'unknown';\n}\n\nfunction getSectionType(domain, aspek, indikator) {\n    if (indikator) return 'indikator';\n    if (aspek) return 'aspek';\n    if (domain) return 'domain';\n    return 'general';\n}\n\n// Enhanced parsing function with additional features\nfunction parseSPBEDocumentAdvanced(inputText, options = {}) {\n    const {\n        minContentLength = 50,    // Minimum content length to include\n        includeQuestions = true,   // Include questions in parsing\n        includeCriteria = true,    // Include criteria tables\n        splitLongContent = false,  // Split very long content into chunks\n        maxChunkSize = 2000,       // Maximum chunk size if splitting\n        fileName = null            // File name for metadata\n    } = options;\n    \n    const basicResults = parseSPBEDocument(inputText);\n    const enhancedResults = [];\n    \n    for (const section of basicResults) {\n        // Skip sections that are too short if specified\n        if (section.content.length < minContentLength) {\n            continue;\n        }\n        \n        // Extract additional metadata\n        const enhancedMetadata = {\n            ...section.metadata,\n            has_question: includeQuestions && section.content.includes('Pertanyaan :'),\n            has_criteria: includeCriteria && section.content.includes('Kriteria'),\n            has_tingkat: section.content.includes('Tingkat'),\n            complexity_score: calculateComplexityScore(section.content)\n        };\n        \n        // Add file metadata if provided\n        if (fileName) {\n            enhancedMetadata.file_name = fileName;\n            enhancedMetadata.file_name_clean = cleanFileName(fileName);\n            enhancedMetadata.document_type = getDocumentType(fileName);\n            enhancedMetadata.document_source = 'google_drive';\n        }\n        \n        // Split long content if requested\n        if (splitLongContent && section.content.length > maxChunkSize) {\n            const chunks = splitContentIntoChunks(section.content, maxChunkSize);\n            chunks.forEach((chunk, index) => {\n                enhancedResults.push({\n                    id: `${section.id}-chunk-${index + 1}`,\n                    content: chunk,\n                    metadata: {\n                        ...enhancedMetadata,\n                        is_chunk: true,\n                        chunk_index: index + 1,\n                        total_chunks: chunks.length,\n                        original_section_id: section.id\n                    }\n                });\n            });\n        } else {\n            enhancedResults.push({\n                ...section,\n                metadata: enhancedMetadata\n            });\n        }\n    }\n    \n    return enhancedResults;\n}\n\nfunction calculateComplexityScore(content) {\n    // Simple complexity score based on various factors\n    let score = 0;\n    \n    // Length factor\n    score += Math.min(content.length / 1000, 5);\n    \n    // Technical terms\n    const technicalTerms = ['SPBE', 'elektronik', 'sistem', 'aplikasi', 'data', 'infrastruktur'];\n    technicalTerms.forEach(term => {\n        const matches = (content.match(new RegExp(term, 'gi')) || []).length;\n        score += matches * 0.5;\n    });\n    \n    // Structure complexity\n    if (content.includes('Kriteria tingkat')) score += 2;\n    if (content.includes('Pertanyaan :')) score += 1;\n    if (content.includes('Tingkat')) score += 1;\n    \n    return Math.min(Math.round(score), 10);\n}\n\nfunction splitContentIntoChunks(content, maxSize) {\n    const chunks = [];\n    const sentences = content.split(/[.!?]+/).filter(s => s.trim());\n    \n    let currentChunk = '';\n    \n    for (const sentence of sentences) {\n        const trimmedSentence = sentence.trim();\n        if (!trimmedSentence) continue;\n        \n        const potentialChunk = currentChunk + (currentChunk ? '. ' : '') + trimmedSentence;\n        \n        if (potentialChunk.length <= maxSize) {\n            currentChunk = potentialChunk;\n        } else {\n            if (currentChunk) {\n                chunks.push(currentChunk + '.');\n            }\n            currentChunk = trimmedSentence;\n        }\n    }\n    \n    if (currentChunk) {\n        chunks.push(currentChunk + '.');\n    }\n    \n    return chunks;\n}\n\n// Helper function to clean file names for metadata\nfunction cleanFileName(fileName) {\n    if (!fileName) return 'unknown_file';\n    \n    return fileName\n        .replace(/\\.[^/.]+$/, '') // Remove file extension\n        .replace(/[^a-zA-Z0-9\\s\\-_]/g, '') // Remove special characters\n        .replace(/\\s+/g, '_') // Replace spaces with underscores\n        .toLowerCase()\n        .trim();\n}\n\n// Helper function to extract document type from file name\nfunction getDocumentType(fileName) {\n    if (!fileName) return 'unknown';\n    \n    const lowerName = fileName.toLowerCase();\n    \n    if (lowerName.includes('spbe')) return 'spbe';\n    if (lowerName.includes('permenpan')) return 'permenpan';\n    if (lowerName.includes('peraturan')) return 'peraturan';\n    if (lowerName.includes('panduan') || lowerName.includes('pedoman')) return 'panduan';\n    if (lowerName.includes('evaluasi')) return 'evaluasi';\n    if (lowerName.includes('pemantauan')) return 'pemantauan';\n    \n    return 'dokumen_pemerintah';\n}\n\n// Example usage and testing\nfunction testParser() {\n    const sampleText = `\n      Domain 1 : Kebijakan Internal SPBE\n      Aspek 1 : Kebijakan Internal Tata Kelola SPBE\n      Indikator 1 : Tingkat Kematangan Kebijakan Internal Arsitektur SPBE Instansi Pusat/Pemerintah Daerah\n\n      Pertanyaan : Apakah Instansi Pusat/Pemerintah Daerah memiliki kebijakan internal Arsitektur SPBE Instansi Pusat/Pemerintah Daerah?\n\n      Tingkat Kriteria\n      1 Konsep kebijakan internal terkait Arsitektur SPBE Instansi Pusat/Pemerintah Daerah belum atau telah tersedia.\n      2 Kebijakan internal Arsitektur SPBE Instansi Pusat/Pemerintah Daerah telah ditetapkan.\n    `;\n    \n    console.log('Testing SPBE Parser...');\n    const results = parseSPBEDocumentAdvanced(sampleText);\n    console.log(JSON.stringify(results, null, 2));\n}\n\n// Export functions for n8n\nmodule.exports = {\n    parseSPBEDocument,\n    parseSPBEDocumentAdvanced,\n    testParser\n};\n\n// For direct use in n8n node\nif (typeof items !== 'undefined') {\n    // n8n context - process input items\n    const results = [];\n    \n    for (const item of items) {\n        const inputText = item.json.text || item.json.content || '';\n        const fileName = item.json.name || 'unknown_file';\n        const options = item.json.options || {};\n        \n        // Add fileName to options\n        options.fileName = fileName;\n        \n        try {\n            const parsedSections = parseSPBEDocumentAdvanced(inputText, options);\n            \n            // Add each section as a separate item for vector DB insertion\n            parsedSections.forEach((section, index) => {\n                results.push({\n                    json: {\n                        id: `${cleanFileName(fileName)}-${section.id}`,\n                        text: section.content,\n                        metadata: {\n                            ...section.metadata,\n                            file_name: fileName,\n                            file_name_clean: cleanFileName(fileName),\n                            document_type: getDocumentType(fileName),\n                            document_source: 'google_drive',\n                            section_index: index,\n                            processing_timestamp: new Date().toISOString()\n                        },\n                        source: 'spbe_document'\n                    }\n                });\n            });\n            \n        } catch (error) {\n            results.push({\n                json: {\n                    error: error.message,\n                    originalItem: item.json,\n                    file_name: fileName,\n                    processing_timestamp: new Date().toISOString()\n                }\n            });\n        }\n    }\n    \n    return results;\n}\n"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        416,
+        0
+      ],
+      "id": "695becd6-5a41-4ad3-96f9-469707886163",
+      "name": "Code in JavaScript"
+    },
+    {
+      "parameters": {
+        "respondWith": "allIncomingItems",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1.4,
+      "position": [
+        624,
+        0
+      ],
+      "id": "9b5f5a46-948d-470c-8b73-9f511df148b2",
+      "name": "Respond to Webhook"
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "Webhook": {
+      "main": [
+        [
+          {
+            "node": "Extract from File",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Extract from File": {
+      "main": [
+        [
+          {
+            "node": "Code in JavaScript",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Code in JavaScript": {
+      "main": [
+        [
+          {
+            "node": "Respond to Webhook",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": true,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "versionId": "8366605d-bffb-4735-b389-e97aa0166ad8",
+  "meta": {
+    "instanceId": "dfe6a5901818c2dcf1d9cfd870dd35bfa9a4b00c4c813ffea16cd9bd764e6493"
+  },
+  "id": "9tHRZgmIzTn04fht",
+  "tags": []
+}
