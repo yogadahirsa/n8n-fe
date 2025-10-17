@@ -28,8 +28,7 @@ export default function Chatbot(){
               name="message"
               className="border border-1 border-gray-300 w-100 h-30 p-2 rounded w-full"
               placeholder="Please ask Gemini!"
-            >
-            </textarea>
+            ></textarea>
             <button className="border border-1 p-5 w-fit rounded cursor-pointer hover:bg-green-200 self-end">Send</button>
           </div>
         </form>

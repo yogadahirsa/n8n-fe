@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <div className="">
-      <p>Welcome to n8n Front End, please use our features!</p>
+      <p>N8N Feature</p>
       <ul className="list-disc pl-5">
         <li>
           <Link className="text-blue-500 hover:underline" href="/webhook">Webhook</Link> 
@@ -15,8 +15,19 @@ export default function Home() {
         <li>
           <Link className="text-blue-500 hover:underline" href="/extract">Ekstrak PDF</Link> 
         </li>
+      </ul>
+
+      <p>Dashboard Feature</p>
+      <ul className="list-disc pl-5">
         <li>
           <Link className="text-blue-500 hover:underline" href="/dashboard">Dashboard</Link> 
+        </li>
+      </ul>
+
+      <p>API to Flask Python Feature</p>
+      <ul className="list-disc pl-5">
+        <li>
+          <Link className="text-blue-500 hover:underline" href="/rag">RAG</Link> 
         </li>
       </ul>
     </div>

@@ -1,0 +1,1130 @@
+[
+    {
+        "metadata": {
+            "domain": {
+                "number": 1,
+                "name": "Kebijakan Internal SPBE",
+                "label": "Domain 1: Kebijakan Internal SPBE"
+            },
+            "aspek": {
+                "number": 1,
+                "name": "Kebijakan Internal Tata Kelola SPBE",
+                "label": "Aspek 1: Kebijakan Internal Tata Kelola SPBE"
+            },
+            "indikator": {
+                "number": 1,
+                "name": "Tingkat Kematangan Kebijakan Internal Arsitektur SPBE Instansi Pusat/Pemerintah Daerah",
+                "label": "Indikator 1: Tingkat Kematangan Kebijakan Internal Arsitektur SPBE Instansi Pusat/Pemerintah Daerah"
+            },
+            "pertanyaan": "Apakah Instansi Pusat/Pemerintah Daerah memiliki kebijakan internal Arsitektur SPBE Instansi Pusat/Pemerintah Daerah?"
+        },
+        "content": "Konsep kebijakan internal terkait Arsitektur SPBE Instansi\nPusat/Pemerintah Daerah belum atau telah tersedia.\n2\nKebijakan internal Arsitektur SPBE Instansi Pusat/Pemerintah\nDaerah telah ditetapkan.\nKondisi: Kebijakan internal Arsitektur SPBE Instansi\nPusat/Pemerintah Daerah tersebut belum memuat secara\nlengkap pengaturan mengenai referensi Arsitektur dan domain\nArsitektur SPBE (Proses Bisnis, Data dan Informasi,\nInfrastruktur SPBE, Aplikasi SPBE, Keamanan SPBE, dan\nLayanan SPBE).\n3\nKriteria tingkat 2 telah terpenuhi dan kebijakan internal\nArsitektur SPBE Instansi Pusat/Pemerintah Daerah telah\nmemuat secara lengkap pengaturan mengenai referensi\nArsitektur dan domain Arsitektur SPBE (Proses Bisnis, Data\ndan Informasi, Infrastruktur SPBE, Aplikasi SPBE, Keamanan\nSPBE, dan Layanan SPBE).\n4\nKriteria tingkat 3 telah terpenuhi, kebijakan internal Arsitektur\nSPBE Instansi Pusat/Pemerintah Daerah telah mengatur\nintegrasi SPBE antar Instansi Pusat, antar Pemerintah Daerah,\ndan/atau antar Instansi Pusat dan Pemerintah Daerah, dan\nkebijakan internal Arsitektur SPBE Instansi Pusat/Pemerintah\nDaerah telah direviu dan dievaluasi secara periodik.\n5\nKriteria tingkat 4 telah terpenuhi serta hasil reviu dan evaluasi\nkebijakan internal Arsitektur Instansi Pusat/Pemerintah\nDaerah SPBE telah ditindaklanjuti dengan kebijakan baru.",
+        "section_type": "indikator",
+        "content_length": 1329,
+        "word_count": 165
+    },
+    {
+        "metadata": {
+            "domain": {
+                "number": 1,
+                "name": "Kebijakan Internal SPBE",
+                "label": "Domain 1: Kebijakan Internal SPBE"
+            },
+            "aspek": {
+                "number": 1,
+                "name": "Kebijakan Internal Tata Kelola SPBE",
+                "label": "Aspek 1: Kebijakan Internal Tata Kelola SPBE"
+            },
+            "indikator": {
+                "number": 2,
+                "name": "Tingkat Kematangan Kebijakan Internal Peta Rencana SPBE Instansi Pusat/Pemerintah Daerah",
+                "label": "Indikator 2: Tingkat Kematangan Kebijakan Internal Peta Rencana SPBE Instansi Pusat/Pemerintah Daerah"
+            },
+            "pertanyaan": "Apakah Instansi Pusat/Pemerintah Daerah memiliki kebijakan internal Peta Rencana SPBE Instansi Pusat/Pemerintah Daerah?"
+        },
+        "content": "Konsep kebijakan internal terkait Peta Rencana SPBE Instansi\nPusat/Pemerintah Daerah belum atau telah tersedia.\n2\nKebijakan internal Peta Rencana SPBE Instansi\nPusat/Pemerintah Daerah telah ditetapkan.\nKondisi: Kebijakan internal Peta Rencana SPBE Instansi\nPusat/Pemerintah Daerah tersebut belum mengatur muatan\nPeta Rencana SPBE secara lengkap (Tata Kelola SPBE,\nManajemen SPBE, Layanan SPBE, Infrastruktur SPBE,\nAplikasi SPBE, Keamanan SPBE, dan Audit TIK).\n3\nKriteria tingkat 2 telah terpenuhi dan kebijakan internal Peta\nRencana SPBE Instansi Pusat/Pemerintah Daerah telah\nmengatur seluruh muatan Peta Rencana SPBE secara lengkap\n(Tata Kelola SPBE, Manajemen SPBE, Layanan SPBE,\nInfrastruktur SPBE, Aplikasi SPBE, Keamanan SPBE, dan\nAudit TIK).\n4\nKriteria tingkat 3 telah terpenuhi, kebijakan internal Peta\nRencana SPBE Instansi Pusat/Pemerintah Daerah telah\nmengatur keselarasan antara Peta Rencana SPBE Instansi\nPusat/Pemerintah Daerah dan Peta Rencana SPBE Nasional.\nSelain itu, Kebijakan internal Peta Rencana SPBE Instansi\nPusat/Pemerintah Daerah telah direviu dan dievaluasi secara\nperiodik.\n5\nKriteria tingkat 4 telah terpenuhi serta hasil reviu dan evaluasi\nkebijakan internal Peta Rencana SPBE Instansi\n-32Pusat/Pemerintah Daerah telah ditindaklanjuti dengan\nkebijakan baru.",
+        "section_type": "indikator",
+        "content_length": 1287,
+        "word_count": 168
+    },
+    {
+        "metadata": {
+            "domain": {
+                "number": 1,
+                "name": "Kebijakan Internal SPBE",
+                "label": "Domain 1: Kebijakan Internal SPBE"
+            },
+            "aspek": {
+                "number": 1,
+                "name": "Kebijakan Internal Tata Kelola SPBE",
+                "label": "Aspek 1: Kebijakan Internal Tata Kelola SPBE"
+            },
+            "indikator": {
+                "number": 3,
+                "name": "Tingkat Kematangan Kebijakan Internal Manajemen Data",
+                "label": "Indikator 3: Tingkat Kematangan Kebijakan Internal Manajemen Data"
+            },
+            "pertanyaan": "Apakah Instansi Pusat/Pemerintah Daerah memiliki kebijakan internal Manajemen Data?"
+        },
+        "content": "Konsep kebijakan internal terkait Manajemen Data di Instansi\nPusat/Pemerintah Daerah belum atau telah tersedia.\n2\nKebijakan internal Manajemen Data di Instansi Pusat/Pemerintah\nDaerah telah ditetapkan.\n3\nKondisi: Kebijakan internal Manajemen Data di Instansi\nPusat/Pemerintah Daerah tersebut hanya mengatur sebagian dari\nrangkaian proses pengelolaan arsitektur data, data induk, data\nreferensi, basis data, kualitas data dan interoperabilitas data.\n4\nKriteria tingkat 2 telah terpenuhi dan kebijakan internal\nManajemen Data di Instansi Pusat/Pemerintah Daerah telah\nmengatur seluruh rangkaian proses pengelolaan arsitektur data,\ndata induk, data referensi, basis data, kualitas data dan\ninteroperabilitas data.\n5\nKriteria tingkat 4 telah terpenuhi serta hasil reviu dan evaluasi\nkebijakan internal Manajemen Data di Instansi Pusat/Pemerintah\nDaerah telah ditindaklanjuti dengan kebijakan baru.",
+        "section_type": "indikator",
+        "content_length": 893,
+        "word_count": 114
+    },
+    {
+        "metadata": {
+            "domain": {
+                "number": 1,
+                "name": "Kebijakan Internal SPBE",
+                "label": "Domain 1: Kebijakan Internal SPBE"
+            },
+            "aspek": {
+                "number": 1,
+                "name": "Kebijakan Internal Tata Kelola SPBE",
+                "label": "Aspek 1: Kebijakan Internal Tata Kelola SPBE"
+            },
+            "indikator": {
+                "number": 4,
+                "name": "Tingkat Kematangan Kebijakan Internal Pembangunan Aplikasi SPBE",
+                "label": "Indikator 4: Tingkat Kematangan Kebijakan Internal Pembangunan Aplikasi SPBE"
+            },
+            "pertanyaan": "Apakah Instansi Pusat/Pemerintah Daerah memiliki kebijakan internal Pembangunan Aplikasi SPBE?"
+        },
+        "content": "Konsep kebijakan internal terkait siklus Pembangunan\nAplikasi SPBE di Instansi Pusat/Pemerintah Daerah belum\natau telah tersedia.\n2\nKebijakan internal terkait siklus Pembangunan Aplikasi SPBE\ndi Instansi Pusat/Pemerintah Daerah telah ditetapkan.\nKondisi: Kebijakan internal terkait Pembangunan Aplikasi\nSPBE telah mengatur siklus pembangunan aplikasi.\n3\nKriteria tingkat 2 telah terpenuhi dan Kebijakan internal\nterkait siklus Pembangunan Aplikasi SPBE telah mengatur\nproses konsultasi terkait siklus Pembangunan Aplikasi SPBE\ndengan unit kerja/perangkat daerah yang menjalankan fungsi\npengelolaan TIK di Instansi Pusat/Pemerintah Daerah.\n4\nKriteria tingkat 3 telah terpenuhi, kebijakan internal terkait\nsiklus Pembangunan Aplikasi SPBE di Instansi\nPusat/Pemerintah Daerah telah mengatur keterpaduan dan\npengendalian Pembangunan Aplikasi SPBE oleh unit\nkerja/perangkat daerah yang menjalankan fungsi pengelolaan\nTIK di Instansi Pusat/Pemerintah Daerah. Selain itu,\nkebijakan internal Pembangunan Aplikasi SPBE direviu dan\ndievaluasi secara periodik.\n5\nKriteria tingkat 4 telah terpenuhi serta hasil reviu dan evaluasi\nkebijakan internal Pembangunan Aplikasi SPBE di Instansi\nPusat/Pemerintah Daerah SPBE telah ditindaklanjuti dengan\nkebijakan baru.",
+        "section_type": "indikator",
+        "content_length": 1248,
+        "word_count": 154
+    },
+    {
+        "metadata": {
+            "domain": {
+                "number": 1,
+                "name": "Kebijakan Internal SPBE",
+                "label": "Domain 1: Kebijakan Internal SPBE"
+            },
+            "aspek": {
+                "number": 1,
+                "name": "Kebijakan Internal Tata Kelola SPBE",
+                "label": "Aspek 1: Kebijakan Internal Tata Kelola SPBE"
+            },
+            "indikator": {
+                "number": 5,
+                "name": "Tingkat Kematangan Kebijakan Internal Layanan Pusat Data",
+                "label": "Indikator 5: Tingkat Kematangan Kebijakan Internal Layanan Pusat Data"
+            },
+            "pertanyaan": "Apakah Instansi Pusat/Pemerintah Daerah memiliki kebijakan internal Layanan Pusat Data?"
+        },
+        "content": "Konsep kebijakan internal terkait Layanan Pusat Data yang\ndigunakan di Instansi Pusat/Pemerintah Daerah belum atau\ntelah tersedia.\n2\nKebijakan internal terkait Layanan Pusat Data yang\ndigunakan di Instansi Pusat/Pemerintah Daerah telah\nditetapkan.\nKondisi: Kebijakan internal terkait Layanan Pusat Data telah\nmengatur penggunaan Layanan Pusat Data untuk sebagian\nunit kerja/perangkat daerah di Instansi Pusat/Pemerintah\nDaerah.\n3\nKriteria tingkat 2 telah terpenuhi dan kebijakan internal\nterkait Layanan Pusat Data telah mengatur penggunaan\nLayanan Pusat Data untuk seluruh unit kerja/perangkat\ndaerah di Instansi Pusat/Pemerintah Daerah.\n4\nKriteria tingkat 3 telah terpenuhi, kebijakan internal terkait\nLayanan Pusat Data yang digunakan di Instansi\nPusat/Pemerintah Daerah telah mengatur interkoneksi\nLayanan Pusat Data dengan Pusat Data Nasional dan/atau\nmengatur penggunaan Layanan Pusat Data Nasional. Selain\nitu, kebijakan internal terkait penggunaan Layanan Pusat\nData di Instansi Pusat/Pemerintah Daerah telah direviu dan\ndievaluasi secara periodik.\n5\nKriteria tingkat 4 telah terpenuhi serta hasil reviu dan evaluasi\nkebijakan internal terkait Layanan Pusat Data yang digunakan\ndi Instansi Pusat/Pemerintah Daerah SPBE telah\nditindaklanjuti dengan kebijakan baru.",
+        "section_type": "indikator",
+        "content_length": 1271,
+        "word_count": 165
+    },
+    {
+        "metadata": {
+            "domain": {
+                "number": 1,
+                "name": "Kebijakan Internal SPBE",
+                "label": "Domain 1: Kebijakan Internal SPBE"
+            },
+            "aspek": {
+                "number": 1,
+                "name": "Kebijakan Internal Tata Kelola SPBE",
+                "label": "Aspek 1: Kebijakan Internal Tata Kelola SPBE"
+            },
+            "indikator": {
+                "number": 6,
+                "name": "Tingkat Kematangan Kebijakan Internal Layanan Jaringan Intra Instansi Pusat/Pemerintah Daerah",
+                "label": "Indikator 6: Tingkat Kematangan Kebijakan Internal Layanan Jaringan Intra Instansi Pusat/Pemerintah Daerah"
+            },
+            "pertanyaan": "Apakah Instansi Pusat/Pemerintah Daerah memiliki kebijakan internal Layanan Jaringan Intra Instansi Pusat/Pemerintah Daerah?"
+        },
+        "content": "Konsep kebijakan internal terkait Layanan Jaringan Intra\nInstansi Pusat/Pemerintah Daerah belum atau telah tersedia.\n2\nKebijakan internal terkait Layanan Jaringan Intra Instansi\nPusat/Pemerintah Daerah telah ditetapkan.\nKondisi: Kebijakan internal terkait Layanan Jaringan Intra\nInstansi Pusat/Pemerintah Daerah telah mengatur Layanan\nJaringan Intra untuk sebagian unit kerja/perangkat daerah di\nInstansi Pusat/Pemerintah Daerah.\n3\nKriteria tingkat 2 telah terpenuhi dan kebijakan internal\nterkait Layanan Jaringan Intra Instansi Pusat/Pemerintah\nDaerah telah mengatur Layanan Jaringan Intra untuk seluruh\nunit kerja/perangkat daerah di Instansi Pusat/Pemerintah\nDaerah.\n4\nKriteria tingkat 3 telah terpenuhi dan kebijakan internal\nterkait Layanan Jaringan Intra Instansi Pusat/Pemerintah\nDaerah telah mengatur interkoneksi Layanan Jaringan Intra\nInstansi Pusat/Pemerintah Daerah dengan Jaringan Intra\nPemerintah dan/atau Jaringan Intra Instansi\nPusat/Pemerintah Daerah lain. Selain itu, kebijakan internal\nterkait Layanan Jaringan Intra Instansi Pusat/Pemerintah\nDaerah telah direviu dan dievaluasi secara periodik.\n5\nKriteria tingkat 4 telah terpenuhi serta hasil reviu dan evaluasi\nkebijakan internal terkait Layanan Jaringan Intra Instansi\nPusat/Pemerintah Daerah telah ditindaklanjuti dengan\nkebijakan baru.\n-36",
+        "section_type": "indikator",
+        "content_length": 1315,
+        "word_count": 159
+    },
+    {
+        "metadata": {
+            "domain": {
+                "number": 1,
+                "name": "Kebijakan Internal SPBE",
+                "label": "Domain 1: Kebijakan Internal SPBE"
+            },
+            "aspek": {
+                "number": 1,
+                "name": "Kebijakan Internal Tata Kelola SPBE",
+                "label": "Aspek 1: Kebijakan Internal Tata Kelola SPBE"
+            },
+            "indikator": {
+                "number": 7,
+                "name": "Tingkat Kematangan Kebijakan Internal Penggunaan Sistem Penghubung Layanan Instansi Pusat/Pemerintah Daerah",
+                "label": "Indikator 7: Tingkat Kematangan Kebijakan Internal Penggunaan Sistem Penghubung Layanan Instansi Pusat/Pemerintah Daerah"
+            },
+            "pertanyaan": "Apakah Instansi Pusat/Pemerintah Daerah memiliki kebijakan internal terkait penggunaan Sistem Penghubung Layanan Instansi Pusat/Pemerintah Daerah?"
+        },
+        "content": "Konsep kebijakan internal terkait Penggunaan Sistem Penghubung\nLayanan Instansi Pusat/Pemerintah Daerah belum atau telah\ntersedia.\n2\nKebijakan internal terkait Penggunaan Sistem Penghubung\nLayanan Instansi Pusat/Pemerintah Daerah telah ditetapkan.\nKondisi: Kebijakan internal terkait Penggunaan Sistem\nPenghubung Layanan Instansi Pusat/Pemerintah Daerah telah\nmengatur penggunaan Sistem Penghubung Layanan Instansi\nPusat/Pemerintah Daerah untuk sebagian unit kerja/perangkat\ndaerah di Instansi Pusat/Pemerintah Daerah.\n3\nKriteria tingkat 2 telah terpenuhi dan kebijakan internal terkait\nPenggunaan Sistem Penghubung Layanan Instansi\nPusat/Pemerintah Daerah telah mengatur penggunaan Sistem\nPenghubung Layanan untuk seluruh unit kerja/perangkat daerah\ndi Instansi Pusat/Pemerintah Daerah.\n4\nKriteria tingkat 3 telah terpenuhi, kebijakan internal terkait\nPenggunaan Sistem Penghubung Layanan Instansi\nPusat/Pemerintah Daerah telah mengatur keterhubungan dengan\nSistem Penghubung Layanan Pemerintah. Selain itu, kebijakan\ninternal terkait Penggunaan Sistem Penghubung Layanan Instansi\nPusat/Pemerintah Daerah telah direviu dan dievaluasi secara\nperiodik.\n-375\nKriteria tingkat 4 telah terpenuhi serta hasil reviu dan evaluasi\nkebijakan internal terkait Penggunaan Sistem Penghubung\nLayanan Instansi Pusat/Pemerintah Daerah telah ditindaklanjuti\ndengan kebijakan baru.",
+        "section_type": "indikator",
+        "content_length": 1364,
+        "word_count": 157
+    },
+    {
+        "metadata": {
+            "domain": {
+                "number": 1,
+                "name": "Kebijakan Internal SPBE",
+                "label": "Domain 1: Kebijakan Internal SPBE"
+            },
+            "aspek": {
+                "number": 1,
+                "name": "Kebijakan Internal Tata Kelola SPBE",
+                "label": "Aspek 1: Kebijakan Internal Tata Kelola SPBE"
+            },
+            "indikator": {
+                "number": 8,
+                "name": "Tingkat Kematangan Kebijakan Internal Manajemen Keamanan Informasi",
+                "label": "Indikator 8: Tingkat Kematangan Kebijakan Internal Manajemen Keamanan Informasi"
+            },
+            "pertanyaan": "Apakah Instansi Pusat/Pemerintah Daerah memiliki kebijakan internal Manajemen Keamanan Informasi?"
+        },
+        "content": "Konsep kebijakan internal terkait Manajemen Keamanan Informasi\nbelum atau telah tersedia.\n2\nKebijakan internal terkait Manajemen Keamanan Informasi telah\nditetapkan.\nKondisi: Kebijakan internal terkait Manajemen Keamanan\nInformasi belum mengatur secara lengkap mengenai cakupan\nManajemen Keamanan Informasi (penetapan ruang lingkup,\npenetapan penanggung jawab, perencanaan,\ndukungan pengoperasian, evaluasi kinerja, dan perbaikan\nberkelanjutan terhadap Keamanan Informasi).\n3\nKriteria tingkat 2 telah terpenuhi dan kebijakan internal terkait\nManajemen Keamanan Informasi mengatur seluruh cakupan\nManajemen Keamanan Informasi secara lengkap (penetapan ruang\nlingkup, penetapan penanggung jawab, perencanaan, dukungan\npengoperasian, evaluasi kinerja, dan perbaikan berkelanjutan\nterhadap Keamanan Informasi).\n4\nKriteria tingkat 3 telah terpenuhi, dan kebijakan internal terkait\nManajemen Keamanan Informasi telah mengatur penerapan untuk\nseluruh unit kerja/perangkat daerah di Instansi Pusat/Pemerintah\nDaerah. Selain itu, kebijakan internal terkait Manajemen\nKeamanan Informasi telah direviu dan dievaluasi secara periodik.\n-385\nKriteria tingkat 4 telah terpenuhi serta hasil reviu dan evaluasi\nkebijakan internal terkait Manajemen Keamanan Informasi telah\nditindaklanjuti dengan kebijakan baru.",
+        "section_type": "indikator",
+        "content_length": 1294,
+        "word_count": 152
+    },
+    {
+        "metadata": {
+            "domain": {
+                "number": 1,
+                "name": "Kebijakan Internal SPBE",
+                "label": "Domain 1: Kebijakan Internal SPBE"
+            },
+            "aspek": {
+                "number": 1,
+                "name": "Kebijakan Internal Tata Kelola SPBE",
+                "label": "Aspek 1: Kebijakan Internal Tata Kelola SPBE"
+            },
+            "indikator": {
+                "number": 9,
+                "name": "Tingkat Kematangan Kebijakan Internal Audit TIK",
+                "label": "Indikator 9: Tingkat Kematangan Kebijakan Internal Audit TIK"
+            },
+            "pertanyaan": "Apakah Instansi Pusat/Pemerintah Daerah memiliki kebijakan internal Audit TIK?"
+        },
+        "content": "Konsep kebijakan internal terkait Audit TIK belum atau telah\ntersedia.\n2\nKebijakan internal Audit TIK telah ditetapkan.\nKondisi: Kebijakan internal terkait Audit TIK hanya mengatur\npelaksanaan sebagian Audit TIK (Audit Infrastruktur SPBE, Audit\nAplikasi SPBE, dan Audit Keamanan SPBE).\n3\nKriteria tingkat 2 telah terpenuhi dan kebijakan internal terkait\nAudit TIK telah mengatur pelaksanaan seluruh Audit TIK (Audit\nInfrastruktur SPBE Audit Aplikasi SPBE, dan Audit Keamanan\nSPBE).\n4\nKriteria tingkat 3 telah terpenuhi dan kebijakan internal terkait\nAudit TIK telah direviu dan dievaluasi secara periodik.\n5\nKriteria tingkat 4 telah terpenuhi serta hasil reviu dan evaluasi\nkebijakan internal terkait Audit TIK telah ditindaklanjuti dengan\nkebijakan baru.",
+        "section_type": "indikator",
+        "content_length": 755,
+        "word_count": 106
+    },
+    {
+        "metadata": {
+            "domain": {
+                "number": 1,
+                "name": "Kebijakan Internal SPBE",
+                "label": "Domain 1: Kebijakan Internal SPBE"
+            },
+            "aspek": {
+                "number": 1,
+                "name": "Kebijakan Internal Tata Kelola SPBE",
+                "label": "Aspek 1: Kebijakan Internal Tata Kelola SPBE"
+            },
+            "indikator": {
+                "number": 10,
+                "name": "Tingkat Kematangan Kebijakan Internal Tim Koordinasi SPBE Instansi Pusat/Pemerintah Daerah",
+                "label": "Indikator 10: Tingkat Kematangan Kebijakan Internal Tim Koordinasi SPBE Instansi Pusat/Pemerintah Daerah"
+            },
+            "pertanyaan": "Apakah Instansi Pusat/Pemerintah Daerah memiliki kebijakan internal Tim Koordinasi SPBE Instansi Pusat/Pemerintah Daerah?"
+        },
+        "content": "Konsep kebijakan internal terkait Tim Koordinasi SPBE Instansi\nPusat/Pemerintah Daerah belum atau telah tersedia.\n2\nKebijakan internal Tim Koordinasi SPBE Instansi\nPusat/Pemerintah Daerah telah ditetapkan.\nKondisi: Kebijakan internal terkait Tim Koordinasi SPBE\nInstansi Pusat/Pemerintah Daerah telah mencakup pengaturan\ntugas-tugas Tim Koordinasi SPBE Instansi Pusat/Pemerintah\nDaerah yang mendukung penerapan SPBE pada sebagian unit\nkerja/perangkat daerah di Instansi Pusat/Pemerintah Daerah.\n3\nKriteria tingkat 2 telah terpenuhi dan kebijakan internal terkait\nTim Koordinasi SPBE Instansi Pusat/Pemerintah Daerah telah\nmencakup pengaturan tugas-tugas Tim Koordinasi SPBE\nInstansi Pusat/Pemerintah Daerah yang mendukung\npenerapan SPBE pada seluruh unit kerja/perangkat daerah di\nInstansi Pusat/Pemerintah Daerah.\n4\nKriteria tingkat 3 telah terpenuhi, kebijakan internal terkait Tim\nKoordinasi SPBE Instansi Pusat/Pemerintah Daerah yang\nmendukung penerapan SPBE antar Instansi Pusat, antar\nPemerintah Daerah, dan/atau antar Instansi Pusat dan\nPemerintah Daerah, dan kebijakan internal terkait Tim\nKoordinasi SPBE Instansi Pusat/Pemerintah Daerah telah\ndireviu dan dievaluasi secara periodik.\n5\nKriteria tingkat 4 telah terpenuhi serta hasil reviu dan evaluasi\nkebijakan internal terkait Tim Koordinasi SPBE Instansi\nPusat/Pemerintah Daerah telah ditindaklanjuti dengan\nkebijakan baru.",
+        "section_type": "indikator",
+        "content_length": 1385,
+        "word_count": 170
+    },
+    {
+        "metadata": {
+            "domain": {
+                "number": 2,
+                "name": "Tata Kelola SPBE",
+                "label": "Domain 2: Tata Kelola SPBE"
+            },
+            "aspek": {
+                "number": 2,
+                "name": "Perencanaan Strategis SPBE",
+                "label": "Aspek 2: Perencanaan Strategis SPBE"
+            },
+            "indikator": {
+                "number": 11,
+                "name": "Tingkat Kematangan Arsitektur SPBE Instansi Pusat/Pemerintah Daerah",
+                "label": "Indikator 11: Tingkat Kematangan Arsitektur SPBE Instansi Pusat/Pemerintah Daerah"
+            },
+            "pertanyaan": "Apakah Instansi Pusat/Pemerintah Daerah memiliki Arsitektur SPBE Instansi Pusat/Pemerintah Daerah?"
+        },
+        "content": "Konsep dokumen Arsitektur SPBE belum atau telah tersedia.\n2\nDokumen Arsitektur SPBE telah tersedia.\nKondisi: Dokumen Arsitektur SPBE tidak/belum mencakup\nreferensi dan domain Arsitektur SPBE Instansi\nPusat/Pemerintah Daerah secara lengkap yaitu referensi dan\ndomain arsitektur Proses Bisnis, Data dan Informasi,\nInfrastruktur SPBE, Aplikasi SPBE, Keamanan SPBE, dan\nLayanan SPBE.\n3\nKriteria tingkat 2 telah terpenuhi dan dokumen Arsitektur SPBE\ntelah mencakup seluruh referensi dan domain Arsitektur SPBE\nInstansi Pusat/Pemerintah Daerah yaitu referensi dan domain\narsitektur Proses Bisnis, Data dan Informasi, Infrastruktur\nSPBE, Aplikasi SPBE, Keamanan SPBE, dan Layanan SPBE.\n4\nKriteria tingkat 3 telah terpenuhi dan dokumen Arsitektur SPBE\nInstansi Pusat/Pemerintah Daerah telah berpedoman pada\nArsitektur SPBE Nasional. Selain itu, dokumen Arsitektur SPBE\nInstansi Pusat/Pemerintah Daerah telah dilakukan reviu dan\nevaluasi secara periodik.\n5\nKriteria tingkat 4 telah terpenuhi dan dokumen Arsitektur SPBE\nInstansi Pusat/Pemerintah Daerah telah dilakukan\npemutakhiran sebagai tindak lanjut hasil reviu dan evaluasi.",
+        "section_type": "indikator",
+        "content_length": 1120,
+        "word_count": 146
+    },
+    {
+        "metadata": {
+            "domain": {
+                "number": 2,
+                "name": "Tata Kelola SPBE",
+                "label": "Domain 2: Tata Kelola SPBE"
+            },
+            "aspek": {
+                "number": 2,
+                "name": "Perencanaan Strategis SPBE",
+                "label": "Aspek 2: Perencanaan Strategis SPBE"
+            },
+            "indikator": {
+                "number": 12,
+                "name": "Tingkat Kematangan Peta Rencana SPBE Instansi Pusat/Pemerintah Daerah",
+                "label": "Indikator 12: Tingkat Kematangan Peta Rencana SPBE Instansi Pusat/Pemerintah Daerah"
+            },
+            "pertanyaan": "Apakah Instansi Pusat/Pemerintah Daerah memiliki Peta Rencana SPBE Instansi Pusat/Pemerintah Daerah?"
+        },
+        "content": "Konsep dokumen Peta Rencana SPBE Instansi\nPusat/Pemerintah Daerah belum atau telah tersedia.\n2\nDokumen Peta Rencana SPBE telah tersedia.\nKondisi: dokumen Peta Rencana SPBE tidak/belum mencakup\nmuatan Peta Rencana SPBE Instansi Pusat/Pemerintah\nDaerah secara lengkap yaitu peta rencana Tata Kelola SPBE,\nManajemen SPBE, Layanan SPBE, Infrastruktur SPBE,\nAplikasi SPBE, Keamanan SPBE, Audit Teknologi SPBE dan\nAudit TIK.\n3\nKriteria tingkat 2 telah terpenuhi dan dokumen Peta Rencana\nSPBE telah mencakup seluruh muatan Peta Rencana SPBE\nInstansi Pusat/Pemerintah Daerah secara lengkap yaitu peta\nrencana Tata Kelola SPBE, Manajemen SPBE, Layanan SPBE,\nInfrastruktur SPBE, Aplikasi SPBE, Keamanan SPBE, Audit\nTeknologi SPBE dan Audit TIK.\n4\nKriteria tingkat 3 telah terpenuhi dan dokumen Peta Rencana\nSPBE Instansi Pusat/Pemerintah Daerah telah diterapkan\nsecara konsisten melalui rencana kerja dan anggaran 3 (tiga)\ntahun terakhir. Selain itu, dokumen Peta Rencana SPBE\nInstansi Pusat/Pemerintah Daerah telah dilakukan reviu dan\nevaluasi secara periodik.\n5\nKriteria tingkat 4 telah terpenuhi dan dokumen Peta Rencana\nSPBE Instansi Pusat/Pemerintah Daerah telah dilakukan\npemutakhiran sebagai tindak lanjut hasil reviu dan evaluasi.",
+        "section_type": "indikator",
+        "content_length": 1228,
+        "word_count": 169
+    },
+    {
+        "metadata": {
+            "domain": {
+                "number": 2,
+                "name": "Tata Kelola SPBE",
+                "label": "Domain 2: Tata Kelola SPBE"
+            },
+            "aspek": {
+                "number": 2,
+                "name": "Perencanaan Strategis SPBE",
+                "label": "Aspek 2: Perencanaan Strategis SPBE"
+            },
+            "indikator": {
+                "number": 13,
+                "name": "Tingkat Kematangan Keterpaduan Rencana dan Anggaran SPBE",
+                "label": "Indikator 13: Tingkat Kematangan Keterpaduan Rencana dan Anggaran SPBE"
+            },
+            "pertanyaan": "Apakah Instansi Pusat/Pemerintah Daerah melakukan keterpaduan Rencana dan Anggaran SPBE?"
+        },
+        "content": "Rencana dan Anggaran SPBE belum atau telah tertuang dalam\nrencana kerja dan anggaran tahunan.\n2\nKriteria tingkat 1 telah terpenuhi dan Rencana dan Anggaran\nSPBE pada unit kerja/perangkat daerah tidak seluruhnya\ndikonsultasikan kepada unit pengelola TIK di Instansi\nPusat/Pemerintah Daerah.\n3\nKriteria tingkat 2 telah terpenuhi dan seluruh Rencana dan\nAnggaran SPBE unit kerja/perangkat daerah telah\ndikonsultasikan kepada unit pengelola TIK di Instansi\nPusat/Pemerintah Daerah.\n4\nKriteria tingkat 3 telah terpenuhi. Seluruh Rencana dan\nAnggaran SPBE Instansi Pusat/Pemerintah Daerah telah\nterpadu dan dapat dikendalikan oleh unit kerja/lembaga\ndaerah yang menjalankan fungsi perencanaan dan\npenganggaran. Selain itu, Rencana dan Anggaran SPBE telah\ndireviu dan dievaluasi secara periodik.\n5\nKriteria tingkat 4 telah terpenuhi serta Rencana dan Anggaran\nSPBE telah dilakukan perbaikan untuk tahun anggaran\nberikutnya sebagai tindak lanjut hasil reviu dan evaluasi.",
+        "section_type": "indikator",
+        "content_length": 963,
+        "word_count": 131
+    },
+    {
+        "metadata": {
+            "domain": {
+                "number": 2,
+                "name": "Tata Kelola SPBE",
+                "label": "Domain 2: Tata Kelola SPBE"
+            },
+            "aspek": {
+                "number": 2,
+                "name": "Perencanaan Strategis SPBE",
+                "label": "Aspek 2: Perencanaan Strategis SPBE"
+            },
+            "indikator": {
+                "number": 14,
+                "name": "Tingkat Kematangan Inovasi Proses Bisnis SPBE",
+                "label": "Indikator 14: Tingkat Kematangan Inovasi Proses Bisnis SPBE"
+            },
+            "pertanyaan": "Apakah Instansi Pusat/Pemerintah Daerah menerapkan Inovasi Proses Bisnis SPBE?"
+        },
+        "content": "Dokumen Proses Bisnis Instansi Pusat/Pemerintah belum atau\ntelah tersedia.\nKondisi: Dokumen Proses Bisnis Instansi Pusat/Pemeritah\nDaerah belum memenuhi standar.\n2\nKriteria tingkat 1 telah terpenuhi dan dokumen Proses Bisnis\nInstansi Pusat/Pemeritah Daerah telah memenuhi standar.\n3\nKriteria tingkat 2 telah terpenuhi dan Proses Bisnis Instansi\nPusat/Pemeritah Daerah telah dilakukan perbaikan sebagai\nbentuk inovasi Proses Bisnis untuk mewujudkan proses bisnis\nyang lebih efisien.\n4\nKriteria tingkat 3 telah terpenuhi, Inovasi Proses bisnis telah\nditerapkan ke dalam sistem elektronik/sistem aplikasi, serta\ntelah dilakukan reviu dan evaluasi secara periodik.\n5\nKriteria tingkat 4 telah terpenuhi dan melakukan perbaikan\nInovasi Proses Bisnis yang diterapkan ke dalam sistem\nelektronik/ sistem aplikasi sebagai tindak lanjut hasil reviu\ndan evaluasi.",
+        "section_type": "indikator",
+        "content_length": 851,
+        "word_count": 113
+    },
+    {
+        "metadata": {
+            "domain": {
+                "number": 2,
+                "name": "Tata Kelola SPBE",
+                "label": "Domain 2: Tata Kelola SPBE"
+            },
+            "aspek": {
+                "number": 3,
+                "name": "Teknologi Informasi dan Komunikasi",
+                "label": "Aspek 3: Teknologi Informasi dan Komunikasi"
+            },
+            "indikator": {
+                "number": 15,
+                "name": "Tingkat Kematangan Pembangunan Aplikasi SPBE",
+                "label": "Indikator 15: Tingkat Kematangan Pembangunan Aplikasi SPBE"
+            },
+            "pertanyaan": "Apakah Instansi Pusat/Pemerintah Daerah melaksanakan keterpaduan pembangunan Aplikasi SPBE?"
+        },
+        "content": "Proses pembangunan Aplikasi SPBE belum atau telah\ndilakukan secara adhoc (sewaktu-waktu, tidak terencana).\nKondisi: Proses pembangunan Aplikasi SPBE belum memenuhi\nsiklus pembangunan aplikasi.\n2\nKriteria tingkat 1 telah terpenuhi dan proses pembangunan\nAplikasi SPBE telah dilakukan sesuai siklus pembangunan\naplikasi.\n3\nKriteria tingkat 2 telah terpenuhi dan proses pembangunan\naplikasi SPBE telah dikonsultasikan kepada unit\nkerja/perangkat daerah yang melaksanakan fungsi pengelolaan\nTIK di Instansi Pusat/Pemerintah Daerah.\n4\nKriteria tingkat 3 telah terpenuhi dan Pembangunan Aplikasi\nSPBE Instansi Pusat/Pemerintah Daerah telah terpadu dan\ndapat dikendalikan oleh unit kerja/lembaga daerah yang\nmenjalankan fungsi pengelolaan TIK di Instansi\nPusat/Pemerintah Daerah. selain itu, Pembangunan Aplikasi\nSPBE direviu dan dievaluasi secara periodik.\n5\nKriteria tingkat 4 telah terpenuhi dan Aplikasi SPBE telah\ndikembangkan secara optimal untuk meningkatkan efektivitas\ndan efisiensi terhadap perubahan lingkungan, teknologi, dan\nkebutuhan Instansi Pusat/Pemerintah Daerah sebagai tindak\nlanjut hasil reviu dan evaluasi.",
+        "section_type": "indikator",
+        "content_length": 1121,
+        "word_count": 141
+    },
+    {
+        "metadata": {
+            "domain": {
+                "number": 2,
+                "name": "Tata Kelola SPBE",
+                "label": "Domain 2: Tata Kelola SPBE"
+            },
+            "aspek": {
+                "number": 3,
+                "name": "Teknologi Informasi dan Komunikasi",
+                "label": "Aspek 3: Teknologi Informasi dan Komunikasi"
+            },
+            "indikator": {
+                "number": 16,
+                "name": "Tingkat Kematangan Layanan Pusat Data",
+                "label": "Indikator 16: Tingkat Kematangan Layanan Pusat Data"
+            },
+            "pertanyaan": "Apakah Instansi Pusat/Pemerintah Daerah memiliki Layanan Pusat Data?"
+        },
+        "content": "Layanan Pusat Data belum atau telah tersedia digunakan oleh\nInstansi Pusat/Pemerintah Daerah.\n2\nKriteria tingkat 1 telah terpenuhi.\nKondisi: Layanan Pusat Data tidak/belum digunakan oleh\nseluruh unit kerja/perangkat daerah di Instansi\nPusat/Pemerintah Daerah.\n3\nKriteria tingkat 2 telah terpenuhi dan Layanan Pusat Data telah\ndigunakan oleh seluruh unit kerja/perangkat daerah di Instansi\nPusat/Pemerintah Daerah. Selain itu, terdapat prosedur\npengoperasian baku Layanan Pusat Data.\n4\nKriteria tingkat 3 telah terpenuhi dan terdapat interkoneksi\nLayanan Pusat Data dengan Pusat Data Nasional/Pusat Data\nInstansi Pusat/Pusat Data Pemerintah Daerah lain dan/atau\npenggunaan Layanan Pusat Data Nasional. Selain itu,\npenggunaan Layanan Pusat Data di Instansi Pusat/Pemerintah\nDaerah telah direviu dan dievaluasi secara periodik.\n5\nKriteria tingkat 4 telah terpenuhi serta hasil reviu dan evaluasi\npenggunaan Layanan Pusat Data di Instansi Pusat/Pemerintah\nDaerah telah ditindaklanjuti dengan melakukan perbaikan\nterhadap Layanan Pusat Data.",
+        "section_type": "indikator",
+        "content_length": 1036,
+        "word_count": 136
+    },
+    {
+        "metadata": {
+            "domain": {
+                "number": 2,
+                "name": "Tata Kelola SPBE",
+                "label": "Domain 2: Tata Kelola SPBE"
+            },
+            "aspek": {
+                "number": 3,
+                "name": "Teknologi Informasi dan Komunikasi",
+                "label": "Aspek 3: Teknologi Informasi dan Komunikasi"
+            },
+            "indikator": {
+                "number": 17,
+                "name": "Tingkat Kematangan Layanan Jaringan Intra Instansi Pusat/Pemerintah Daerah",
+                "label": "Indikator 17: Tingkat Kematangan Layanan Jaringan Intra Instansi Pusat/Pemerintah Daerah"
+            },
+            "pertanyaan": "Apakah Instansi Pusat/Pemerintah Daerah menggunakan Layanan Jaringan Intra Instansi Pusat/Pemerintah Daerah?"
+        },
+        "content": "Layanan Jaringan Intra Instansi Pusat/Pemerintah Daerah\nbelum atau telah tersedia.\n2\nKriteria tingkat 1 telah terpenuhi.\nKondisi: Layanan Jaringan Intra Instansi Pusat/Pemerintah\nDaerah tidak/belum diterapkan di seluruh unit kerja/perangkat\ndaerah di Instansi Pusat/Pemerintah Daerah.\n3\nKriteria tingkat 2 telah terpenuhi dan Layanan Jaringan Intra\nInstansi Pusat/Pemerintah Daerah telah diterapkan di seluruh\nunit kerja/perangkat daerah di Instansi Pusat/Pemerintah\nDaerah.\n4\nKriteria tingkat 3 telah terpenuhi dan terdapat interkoneksi\nLayanan Jaringan Intra Instansi Pusat/Pemerintah Daerah\ndengan Jaringan Intra Pemerintah dan/atau Jaringan Intra\nInstansi Pusat/Pemerintah Daerah lain. Selain itu, Layanan\nJaringan Intra Instansi Pusat/Pemerintah Daerah telah direviu\ndan dievaluasi secara periodik.\n5\nKriteria tingkat 4 telah terpenuhi serta hasil reviu dan evaluasi\nLayanan Jaringan Intra Instansi Pusat/Pemerintah Daerah telah\nditindaklanjuti dengan melakukan perbaikan terhadap Layanan\nJaringan Intra Instansi Pusat/Pemerintah Daerah.",
+        "section_type": "indikator",
+        "content_length": 1042,
+        "word_count": 127
+    },
+    {
+        "metadata": {
+            "domain": {
+                "number": 2,
+                "name": "Tata Kelola SPBE",
+                "label": "Domain 2: Tata Kelola SPBE"
+            },
+            "aspek": {
+                "number": 3,
+                "name": "Teknologi Informasi dan Komunikasi",
+                "label": "Aspek 3: Teknologi Informasi dan Komunikasi"
+            },
+            "indikator": {
+                "number": 18,
+                "name": "Tingkat Kematangan Penggunaan Sistem Penghubung Layanan Instansi Pusat/Pemerintah Daerah",
+                "label": "Indikator 18: Tingkat Kematangan Penggunaan Sistem Penghubung Layanan Instansi Pusat/Pemerintah Daerah"
+            },
+            "pertanyaan": "Apakah Instansi Pusat/Pemerintah Daerah menggunakan Sistem Penghubung Layanan Instansi Pusat/Pemerintah Daerah"
+        },
+        "content": "Sistem penghubung layanan Instansi Pusat dan Pemerintah\nDaerah belum atau telah tersedia.\n2\nKriteria tingkat 1 telah terpenuhi.\nKondisi: Sistem penghubung layanan Instansi Pusat dan\nPemerintah Daerah tidak/belum diterapkan di seluruh unit\nkerja/perangkat daerah di Instansi Pusat/Pemerintah Daerah.\n3\nKriteria tingkat 2 telah terpenuhi dan sistem penghubung\nlayanan Instansi Pusat dan Pemerintah Daerah telah diterapkan\ndi seluruh unit kerja/perangkat daerah di Instansi\nPusat/Pemerintah Daerah.\n4\nKriteria tingkat 3 telah terpenuhi, sistem penghubung layanan\nInstansi Pusat dan Pemerintah Daerah telah terintegrasi dengan\nsistem penghubungan layanan pemerintah dan/atau sistem\npenghubung layanan Instansi Pusat/Pemerintah Daerah lain.\nSelain itu, sistem penghubung layanan Instansi\nPusat/Pemerintah Daerah telah direviu dan dievaluasi secara\nperiodik.\n5\nKriteria tingkat 4 telah terpenuhi serta hasil reviu dan evaluasi\nsistem penghubung layanan Instansi Pusat dan Pemerintah\nDaerah telah ditindaklanjuti dengan melakukan perbaikan.",
+        "section_type": "indikator",
+        "content_length": 1033,
+        "word_count": 131
+    },
+    {
+        "metadata": {
+            "domain": {
+                "number": 2,
+                "name": "Tata Kelola SPBE",
+                "label": "Domain 2: Tata Kelola SPBE"
+            },
+            "aspek": {
+                "number": 4,
+                "name": "Penyelenggara SPBE",
+                "label": "Aspek 4: Penyelenggara SPBE"
+            },
+            "indikator": {
+                "number": 19,
+                "name": "Tingkat Kematangan Pelaksanaan Tim Koordinasi SPBE Instansi Pusat/Pemerintah Daerah",
+                "label": "Indikator 19: Tingkat Kematangan Pelaksanaan Tim Koordinasi SPBE Instansi Pusat/Pemerintah Daerah"
+            },
+            "pertanyaan": "Apakah Tim Koordinasi SPBE Instansi Pusat/Pemerintah Daerah melaksanakan tugas dan program kerjanya?"
+        },
+        "content": "tingkat 1 telah terpenuhi dan tugas/program kerja Tim\nKoordinasi SPBE Instansi Pusat/Pemerintah Daerah telah\ndilaksanakan sesuai perencanaan.\nKondisi: tugas/program kerja Tim Koordinasi SPBE Instansi\nPusat/Pemerintah Daerah tidak/belum dilaksanakan seluruhnya.\n3\nKriteria tingkat 2 telah terpenuhi dan tugas/program kerja Tim\nKoordinasi SPBE Instansi Pusat/Pemerintah Daerah telah\ndilaksanakan seluruhnya.\nKondisi: program kerja Tim Koordinasi SPBE Instansi\nPusat/Pemerintah Daerah belum dikomunikasikan/dikoordinasikan\nkepada semua unit kerja/perangkat daerah terkait di Instansi\nPusat/Pemerintah Daerah.\n4\nKriteria tingkat 3 telah terpenuhi dan program kerja Tim Koordinasi\nSPBE Instansi Pusat/Pemerintah Daerah telah\ndikomunikasikan/dikoordinasikan kepada semua unit\nkerja/perangkat daerah terkait di Instansi Pusat/Pemerintah Daerah.\nSelain itu, tugas/program kerja Tim Koordinasi SPBE Instansi\nPusat/Pemerintah Daerah telah dilakukan reviu dan evaluasi.\n5\nKriteria tingkat 4 telah terpenuhi dan hasil reviu dan evaluasi\ntugas/program kerja Tim Koordinasi SPBE Instansi Pusat/Pemerintah\nDaerah telah ditindaklanjuti melalui perbaikan tugas/program kerja\nTim Koordinasi SPBE Instansi Pusat/Pemerintah Daerah dan\npelaksanaannya.",
+        "section_type": "indikator",
+        "content_length": 1230,
+        "word_count": 143
+    },
+    {
+        "metadata": {
+            "domain": {
+                "number": 2,
+                "name": "Tata Kelola SPBE",
+                "label": "Domain 2: Tata Kelola SPBE"
+            },
+            "aspek": {
+                "number": 4,
+                "name": "Penyelenggara SPBE",
+                "label": "Aspek 4: Penyelenggara SPBE"
+            },
+            "indikator": {
+                "number": 20,
+                "name": "Tingkat Kematangan Kolaborasi Penerapan SPBE",
+                "label": "Indikator 20: Tingkat Kematangan Kolaborasi Penerapan SPBE"
+            },
+            "pertanyaan": "Apakah Instansi Pusat/Pemerintah Daerah menerapkan SPBE secara kolaboratif?"
+        },
+        "content": "Kolaborasi antar unit kerja/perangkat daerah di Instansi\nPusat/Perangkat Daerah dalam penerapan SPBE belum atau telah\ndilaksanakan.\nKondisi: Kolaborasi antar unit kerja/perangkat daerah di Instansi\nPusat/Perangkat Daerah dalam penerapan SPBE dilaksanakan\nsewaktu-waktu atau tanpa perencanaan.\n2\nKriteria tingkat 1 telah terpenuhi dan kolaborasi antar unit\nkerja/perangkat daerah di Instansi Pusat/Perangkat Daerah dalam\npenerapan SPBE telah dilaksanakan sesuai perencanaan.\nKondisi: Kolaborasi antar unit kerja/perangkat daerah di Instansi\nPusat/Perangkat Daerah dalam penerapan SPBE tidak dibentuk\nsecara formal.\n3\nKriteria tingkat 2 telah terpenuhi dan kolaborasi antar unit\nkerja/perangkat daerah di Instansi Pusat/Perangkat Daerah dalam\npenerapan SPBE telah dilaksanakan oleh tim yang dibentuk secara\nformal.\nKondisi: Kolaborasi antar unit kerja/perangkat daerah dalam\npenerapan SPBE tidak/belum dilaksanakan pada seluruh unit\nkerja/perangkat daerah di Instansi Pusat/Perangkat Daerah\n(kolaborasi dibentuk berdasarkan adanya kegiatan bersama).\n4\nKriteria tingkat 3 telah terpenuhi dan kolaborasi antar unit\nkerja/perangkat daerah dalam penerapan SPBE telah dilaksanakan\nsecara terpadu pada seluruh unit kerja/perangkat daerah di Instansi\nPusat/Pemerintah Daerah yang dikoordinasikan oleh menteri/kepala\nlembaga/kepala daerah atau sekretaris\nkementerian/lembaga/pemerintah daerah. Selain itu, kolaborasi\ndalam penerapan SPBE telah dilakukan reviu dan evaluasi.\n5\nKriteria tingkat 4 telah terpenuhi dan hasil reviu dan evaluasi\nkolaborasi dalam penerapan SPBE telah ditindaklanjuti melalui\nperbaikan pelaksanaan kolaborasi dalam penerapan SPBE.",
+        "section_type": "indikator",
+        "content_length": 1646,
+        "word_count": 200
+    },
+    {
+        "metadata": {
+            "domain": {
+                "number": 3,
+                "name": "Manajemen SPBE",
+                "label": "Domain 3: Manajemen SPBE"
+            },
+            "aspek": {
+                "number": 5,
+                "name": "Penerapan Manajemen SPBE",
+                "label": "Aspek 5: Penerapan Manajemen SPBE"
+            },
+            "indikator": {
+                "number": 21,
+                "name": "Tingkat Kematangan Penerapan Manajemen Risiko SPBE",
+                "label": "Indikator 21: Tingkat Kematangan Penerapan Manajemen Risiko SPBE"
+            },
+            "pertanyaan": "Apakah Instansi Pusat/Pemerintah Daerah menerapkan Manajemen Risiko SPBE?"
+        },
+        "content": "Kegiatan Manajemen Risiko SPBE belum atau telah diterapkan.\nKondisi: Kegiatan Manajemen Risiko SPBE diterapkan tanpa\nprogram kegiatan yang terarah dan terencana.\n2\nKriteria tingkat 1 telah terpenuhi dan kegiatan Manajemen\nRisiko SPBE diterapkan dengan program kegiatan yang terarah\ndan terencana.\nKondisi: Penerapan Manajemen Risiko SPBE dilaksanakan\ntanpa mengacu pada pedoman manajemen risiko SPBE.\n3\nKriteria tingkat 2 telah terpenuhi dan Manajemen Risiko SPBE\ntelah dilaksanakan dengan mengacu pada pedoman manajemen\nrisiko SPBE.\n4\nKriteria tingkat 3 telah terpenuhi dan kebijakann strategis\nManajemen Risiko SPBE telah ditetapkan oleh Komite\nManajemen Risiko SPBE atau Tim Koordinasi SPBE Instansi\nPusat/Pemerintah Daerah dan diterapkan ke seluruh unit\nkerja/perangkat daerah di Instansi Pusat/Pemerintah Daerah.\nSelain itu, penerapan Manajemen Risiko SPBE telah direviu dan\ndievaluasi secara periodik.\n5\nKriteria tingkat 4 telah terpenuhi serta hasil reviu dan evaluasi\nManajemen Risiko SPBE ditindaklanjuti melalui perbaikan\npenerapan Manajemen Risiko SPBE.",
+        "section_type": "indikator",
+        "content_length": 1064,
+        "word_count": 142
+    },
+    {
+        "metadata": {
+            "domain": {
+                "number": 3,
+                "name": "Manajemen SPBE",
+                "label": "Domain 3: Manajemen SPBE"
+            },
+            "aspek": {
+                "number": 5,
+                "name": "Penerapan Manajemen SPBE",
+                "label": "Aspek 5: Penerapan Manajemen SPBE"
+            },
+            "indikator": {
+                "number": 22,
+                "name": "Tingkat Kematangan Penerapan Manajemen Keamanan Informasi",
+                "label": "Indikator 22: Tingkat Kematangan Penerapan Manajemen Keamanan Informasi"
+            },
+            "pertanyaan": "Apakah Instansi Pusat/Pemerintah Daerah menerapkan Manajemen Keamanan Informasi?"
+        },
+        "content": "Pengendalian Keamanan Informasi belum atau telah tersedia\ndalam tahap pembangunan.\n2\nPengendalian Keamanan Informasi telah tersedia.\nKondisi: Pengendalian Keamanan Informasi telah dilaksanakan\npada sebagian unit kerja/perangkat daerah di Instansi\nPusat/Pemerintah Daerah.\n3\nKriteria tingkat 2 telah terpenuhi dan pengendalian Keamanan\nInformasi telah dilaksanakan pada seluruh unit kerja/perangkat\ndaerah di Instansi Pusat/Pemerintah Daerah dengan\nberdasarkan Risiko SPBE.\n4\nKriteria tingkat 3 telah terpenuhi dan pengendalian Keamanan\nInformasi dilakukan melalui strategi Keamanan Informasi yang\nditetapkan oleh Tim Koordinasi SPBE Instansi Pusat/Pemerintah\nDaerah. Selain itu, pengendalian Keamanan Informasi telah\ndilakukan reviu dan evaluasi secara periodik.\n5\nKriteria tingkat 4 telah terpenuhi serta hasil reviu dan evaluasi\npengendalian Keamanan Informasi ditindaklanjuti melalui\nperbaikan penerapan proses pengendalian Keamanan Informasi.",
+        "section_type": "indikator",
+        "content_length": 946,
+        "word_count": 114
+    },
+    {
+        "metadata": {
+            "domain": {
+                "number": 3,
+                "name": "Manajemen SPBE",
+                "label": "Domain 3: Manajemen SPBE"
+            },
+            "aspek": {
+                "number": 5,
+                "name": "Penerapan Manajemen SPBE",
+                "label": "Aspek 5: Penerapan Manajemen SPBE"
+            },
+            "indikator": {
+                "number": 23,
+                "name": "Tingkat Kematangan Penerapan Manajemen Data",
+                "label": "Indikator 23: Tingkat Kematangan Penerapan Manajemen Data"
+            },
+            "pertanyaan": "Apakah Instansi Pusat/Pemerintah Daerah menerapkan Manajemen Data?"
+        },
+        "content": "Kegiatan Manajemen Data belum atau telah diterapkan.\nKondisi: Kegiatan Manajemen Data diterapkan tanpa program\nkegiatan yang terarah dan terencana.\n2\nKriteria tingkat 1 telah terpenuhi dan kegiatan Manajemen Data\nditerapkan dengan program kegiatan yang terarah dan terencana.\nKondisi: Manajemen Data dilaksanakan tanpa mengacu pada\npedoman Manajemen Data.\n3\nKriteria tingkat 2 telah terpenuhi dan Manajemen Data telah\ndilaksanakan dengan mengacu pada pedoman Manajemen Data\nyang mencakup pengelolaan arsitektur data, data induk, data\nreferensi, basis data, kualitas data, dan interoperabilitas data.\n4\nKriteria tingkat 3 telah terpenuhi dan Manajemen Data\ndilaksanakan melalui strategi pengelolaan data yang ditetapkan\nForum Satu Data atau Tim Koordinasi SPBE Instansi\nPusat/Pemerintah Daerah dan diterapkan ke seluruh unit\nkerja/perangkat daerah di Instansi Pusat/Pemerintah Daerah.\nSelain itu, penerapan Manajemen Data telah direviu dan dievaluasi\nsecara periodik.\n5\nKriteria tingkat 4 telah terpenuhi serta hasil reviu dan evaluasi\nManajemen Data ditindaklanjuti melalui perbaikan penerapan\nManajemen Data.",
+        "section_type": "indikator",
+        "content_length": 1109,
+        "word_count": 147
+    },
+    {
+        "metadata": {
+            "domain": {
+                "number": 3,
+                "name": "Manajemen SPBE",
+                "label": "Domain 3: Manajemen SPBE"
+            },
+            "aspek": {
+                "number": 5,
+                "name": "Penerapan Manajemen SPBE",
+                "label": "Aspek 5: Penerapan Manajemen SPBE"
+            },
+            "indikator": {
+                "number": 24,
+                "name": "Tingkat Kematangan Penerapan Manajemen Aset TIK",
+                "label": "Indikator 24: Tingkat Kematangan Penerapan Manajemen Aset TIK"
+            },
+            "pertanyaan": "Apakah Instansi Pusat/Pemerintah Daerah menerapkan Manajemen Aset TIK?"
+        },
+        "content": "Kegiatan Manajemen Aset TIK belum atau telah diterapkan.\nKondisi: Kegiatan Manajemen Aset TIK diterapkan tanpa program\nkegiatan yang terarah dan terencana.\n2\nKriteria tingkat 1 telah terpenuhi dan kegiatan Manajemen Aset TIK\nditerapkan dengan program kegiatan yang terarah dan terencana.\nKondisi: Manajemen Aset TIK dilaksanakan tanpa mengacu pada\npedoman Manajemen Aset TIK yang mencakup proses perencanaan,\npengadaan, pemanfaatan/penggunaan, dan penghapusan aset TIK.\n3\nKriteria tingkat 2 telah terpenuhi dan Manajemen Aset TIK telah\ndilaksanakan dengan mengacu pada pedoman Manajemen Aset TIK\nyang mencakup proses perencanaan, pengadaan,\npemanfaatan/penggunaan, dan penghapusan aset TIK.\n4\nKriteria tingkat 3 telah terpenuhi, Manajemen Aset TIK\ndilaksanakan melalui strategi pengelolaan aset TIK oleh unit kerja/\nperangkat daerah yang menjalankan fungsi pengelolaan TIK di\nInstansi Pusat/Pemerintah Daerah dan diterapkan ke seluruh unit\nkerja/perangkat daerah di Instansi Pusat/Pemerintah Daerah.\nSelain itu, penerapan Manajemen Aset TIK telah direviu dan\ndievaluasi secara periodik.\n5\nKriteria tingkat 4 telah terpenuhi serta hasil reviu dan evaluasi\nManajemen Aset TIK ditindaklanjuti melalui perbaikan penerapan\nManajemen Aset TIK.",
+        "section_type": "indikator",
+        "content_length": 1237,
+        "word_count": 164
+    },
+    {
+        "metadata": {
+            "domain": {
+                "number": 3,
+                "name": "Manajemen SPBE",
+                "label": "Domain 3: Manajemen SPBE"
+            },
+            "aspek": {
+                "number": 5,
+                "name": "Penerapan Manajemen SPBE",
+                "label": "Aspek 5: Penerapan Manajemen SPBE"
+            },
+            "indikator": {
+                "number": 25,
+                "name": "Tingkat Kematangan Penerapan Kompetensi Sumber Daya Manusia",
+                "label": "Indikator 25: Tingkat Kematangan Penerapan Kompetensi Sumber Daya Manusia"
+            },
+            "pertanyaan": "Apakah Instansi Pusat/Pemerintah Daerah menerapkan Kompetensi Sumber Daya Manusia di bidang SPBE?"
+        },
+        "content": "Pemenuhan kompetensi Sumber Daya Manusia belum atau telah\ndiupayakan.\nKondisi: Pemenuhan kompetensi Sumber Daya Manusia SPBE\ndilakukan tanpa perencanaan Sumber Daya Manusia.\n2\nKriteria tingkat 1 telah terpenuhi dan pemenuhan kompetensi\nSumber Daya Manusia SPBE dilakukan sesuai dengan perencanaan\nSumber Daya Manusia.\nKondisi: Kompetensi Sumber Daya Manusia SPBE tidak/belum\nterpenuhi seluruhnya yaitu kompetensi di bidang proses bisnis\nmemerintahan, arsitektur SPBE, data dan informasi, keamanan\nSPBE, aplikasi SPBE, dan infrastruktur SPBE.\n3\nKriteria tingkat 2 telah terpenuhi dan kompetensi Sumber Daya\nManusia SPBE telah terpenuhi seluruhnya yaitu kompetensi di\nbidang proses bisnis memerintahan, arsitektur SPBE, data dan\ninformasi, keamanan SPBE, aplikasi SPBE, dan infrastruktur SPBE.\n4\nKriteria tingkat 3 telah terpenuhi, peningkatan dan penilaian\nkompetensi Sumber Daya Manusia SPBE telah dilakukan. Selain itu,\npemenuhan kompetensi Sumber Daya Manusia SPBE telah\ndilakukan reviu dan evaluasi secara periodik.\n5\nKriteria tingkat 4 telah terpenuhi serta hasil reviu dan evaluasi telah\nditindaklanjuti melalui perbaikan perencanaan dan pemenuhan\nkompetensi Sumber Daya Manusia SPBE.",
+        "section_type": "indikator",
+        "content_length": 1189,
+        "word_count": 158
+    },
+    {
+        "metadata": {
+            "domain": {
+                "number": 3,
+                "name": "Manajemen SPBE",
+                "label": "Domain 3: Manajemen SPBE"
+            },
+            "aspek": {
+                "number": 5,
+                "name": "Penerapan Manajemen SPBE",
+                "label": "Aspek 5: Penerapan Manajemen SPBE"
+            },
+            "indikator": {
+                "number": 26,
+                "name": "Tingkat Kematangan Penerapan Manajemen Pengetahuan",
+                "label": "Indikator 26: Tingkat Kematangan Penerapan Manajemen Pengetahuan"
+            },
+            "pertanyaan": "Apakah Instansi Pusat/Pemerintah Daerah menerapkan Manajemen Pengetahuan?"
+        },
+        "content": "Manajemen Pengetahuan SPBE belum atau telah diterapkan.\nKondisi: Manajemen Pengetahuan SPBE diterapkan tanpa\nperencanaan.\n2\nKriteria tingkat 1 telah terpenuhi dan dilaksanakan dengan\nperencanaan.\nKondisi: Manajemen Pengetahuan SPBE telah dilaksanakan tanpa\npedoman di Instansi Pusat/Pemerintah Daerah.\n3\nKriteria tingkat 2 telah terpenuhi, Manajemen Pengetahuan SPBE\ndilaksanakan dengan mengacu pada pedoman di Instansi\nPusat/Pemerintah Daerah dan Manajemen Pengetahuan SPBE\nditerapkan dengan menggunakan sistem aplikasi manajemen\npengetahuan.\n4\nKriteria tingkat 3 telah terpenuhi, semua unit kerja/perangkat\ndaerah telah menerapkan Manajemen Pengetahuan SPBE dengan\nmenggunakan sistem aplikasi manajemen pengetahuan yang\nterintegrasi serta telah dilakukan reviu dan evaluasi terhadap\npenerapan Manajemen Pengetahuan SPBE.\n5\nKriteria tingkat 4 telah terpenuhi serta hasil reviu dan evaluasi\nterhadap penerapan Manajemen Pengetahuan SPBE telah\nditindaklanjuti melalui perbaikan Manajemen Pengetahuan SPBE.",
+        "section_type": "indikator",
+        "content_length": 1004,
+        "word_count": 122
+    },
+    {
+        "metadata": {
+            "domain": {
+                "number": 3,
+                "name": "Manajemen SPBE",
+                "label": "Domain 3: Manajemen SPBE"
+            },
+            "aspek": {
+                "number": 5,
+                "name": "Penerapan Manajemen SPBE",
+                "label": "Aspek 5: Penerapan Manajemen SPBE"
+            },
+            "indikator": {
+                "number": 27,
+                "name": "Tingkat Kematangan Penerapan Manajemen Perubahan",
+                "label": "Indikator 27: Tingkat Kematangan Penerapan Manajemen Perubahan"
+            },
+            "pertanyaan": "Apakah Instansi Pusat/Pemerintah Daerah menerapkan Manajemen Perubahan?"
+        },
+        "content": "Kegiatan Manajemen Perubahan SPBE belum atau telah\ndilaksanakan.\nKondisi: Kegiatan Manajemen Perubahan SPBE dilaksanakan\ntanpa perencanaan.\n2\nKriteria tingkat 1 telah terpenuhi dan kegiatan Manajemen\nPerubahan SPBE dilaksanakan dengan perencanaan.\nKondisi: Kegiatan Manajemen Perubahan SPBE tidak/belum\ndilaksanakan oleh seluruh unit kerja/perangkat daerah terkait di\nInstansi Pusat/Pemerintah Daerah dengan caranya masingmasing.\n3\nKriteria tingkat 2 telah terpenuhi dan kegiatan Manajemen\nPerubahan SPBE dilaksanakan oleh seluruh unit kerja/perangkat\ndaerah terkait di Instansi Pusat/Pemerintah Daerah sesuai\npedoman Manajemen Perubahan.\n4\nKriteria tingkat 3 telah terpenuhi dan kegiatan Manajemen\nPerubahan SPBE telah dilakukan reviu dan evaluasi.\n5\nKriteria tingkat 4 telah terpenuhi serta hasil reviu dan evaluasi\ntelah ditindaklanjuti melalui perbaikan Manajemen Perubahan\nSPBE.",
+        "section_type": "indikator",
+        "content_length": 883,
+        "word_count": 110
+    },
+    {
+        "metadata": {
+            "domain": {
+                "number": 3,
+                "name": "Manajemen SPBE",
+                "label": "Domain 3: Manajemen SPBE"
+            },
+            "aspek": {
+                "number": 5,
+                "name": "Penerapan Manajemen SPBE",
+                "label": "Aspek 5: Penerapan Manajemen SPBE"
+            },
+            "indikator": {
+                "number": 28,
+                "name": "Tingkat Kematangan Penerapan Manajemen Layanan SPBE",
+                "label": "Indikator 28: Tingkat Kematangan Penerapan Manajemen Layanan SPBE"
+            },
+            "pertanyaan": ""
+        },
+        "content": "Manajemen Layanan SPBE belum atau telah dilaksanakan.\nKondisi: Manajemen Layanan SPBE dilaksanakan tanpa\nperencanaan.\n2\nKriteria tingkat 1 telah terpenuhi dan Manajemen Layanan SPBE\ndilaksanakan dengan perencanaan.\nKondisi: Manajemen Layanan SPBE tidak/belum dilaksanakan pada\nseluruh proses Manajemen Layanan SPBE yaitu Pelayanan\nPengguna SPBE dan Pengoperasian Layanan SPBE.\n3\nKriteria tingkat 2 telah terpenuhi dan Manajemen Layanan SPBE\ndilaksanakan pada seluruh proses Manajemen Layanan SPBE yaitu\nPelayanan Pengguna SPBE dan Pengoperasian Layanan SPBE.\n4\nKriteria tingkat 3 telah terpenuhi, Manajemen Layanan SPBE telah\nditerapkan dengan menggunakan sistem aplikasi manajemen\nlayanan, dan kegiatan Manajemen Layanan SPBE telah dilakukan\nreviu dan evaluasi.\n5\nKriteria tingkat 4 telah terpenuhi serta hasil reviu dan evaluasi telah\nditindaklanjuti melalui perbaikan Manajemen Layanan SPBE.",
+        "section_type": "indikator",
+        "content_length": 894,
+        "word_count": 117
+    },
+    {
+        "metadata": {
+            "domain": {
+                "number": 3,
+                "name": "Manajemen SPBE",
+                "label": "Domain 3: Manajemen SPBE"
+            },
+            "aspek": {
+                "number": 6,
+                "name": "Pelaksanaan Audit TIK",
+                "label": "Aspek 6: Pelaksanaan Audit TIK"
+            },
+            "indikator": {
+                "number": 29,
+                "name": "Tingkat Kematangan Pelaksanaan Audit Infrastruktur SPBE",
+                "label": "Indikator 29: Tingkat Kematangan Pelaksanaan Audit Infrastruktur SPBE"
+            },
+            "pertanyaan": "Apakah Instansi Pusat/Pemerintah Daerah melaksanakan Audit Infrastruktur SPBE?"
+        },
+        "content": "Kegiatan Audit Infrastruktur SPBE belum atau telah dilaksanakan.\nKondisi: Kegiatan Audit Infrastruktur dilaksanakan tanpa\nperencanaan yang berkesinambungan.\n2\nKriteria tingkat 1 telah terpenuhi dan kegiatan Audit Infrastruktur\ndilaksanakan sesuai dengan perencanaan yang berkesinambungan.\nKondisi: Kegiatan Audit Infrastruktur dilaksanakan tanpa pedoman\nAudit Infrastruktur.\n3\nKriteria tingkat 2 telah terpenuhi dan kegiatan Audit Infrastruktur\ndilaksanakan sesuai dengan pedoman Audit Infrastruktur.\nKondisi: kegiatan Audit Infrastruktur dilaksanakan oleh auditor\nTIK/Sistem Informasi internal Instansi Pusat/Pemerintah Daerah.\n4\nKriteria tingkat 3 telah terpenuhi dan kegiatan Audit Infrastruktur\ndilaksanakan oleh auditor TIK/Sistem Informasi eksternal yang\nmemiliki sertifikasi auditor TIK/Sistem Informasi.\n5\nKriteria tingkat 4 telah terpenuhi dan hasil audit Infrastruktur SPBE\ntelah ditindaklanjuti melalui perbaikan penerapan Infrastruktur\nSPBE.",
+        "section_type": "indikator",
+        "content_length": 953,
+        "word_count": 111
+    },
+    {
+        "metadata": {
+            "domain": {
+                "number": 3,
+                "name": "Manajemen SPBE",
+                "label": "Domain 3: Manajemen SPBE"
+            },
+            "aspek": {
+                "number": 6,
+                "name": "Pelaksanaan Audit TIK",
+                "label": "Aspek 6: Pelaksanaan Audit TIK"
+            },
+            "indikator": {
+                "number": 30,
+                "name": "Tingkat Kematangan Pelaksanaan Audit Aplikasi SPBE",
+                "label": "Indikator 30: Tingkat Kematangan Pelaksanaan Audit Aplikasi SPBE"
+            },
+            "pertanyaan": ""
+        },
+        "content": "Kegiatan Audit Aplikasi SPBE belum atau telah dilaksanakan.\nKondisi: Kegiatan Audit Aplikasi dilaksanakan tanpa perencanaan\nyang berkesinambungan.\n2\nKriteria tingkat 1 telah terpenuhi dan kegiatan Audit Aplikasi\ndilaksanakan sesuai dengan perencanaan yang berkesinambungan.\nKondisi: Kegiatan Audit Aplikasi dilaksanakan tanpa pedoman Audit\nAplikasi SPBE.\n3\nKriteria tingkat 2 telah terpenuhi dan kegiatan Audit Aplikasi\ndilaksanakan sesuai dengan pedoman Audit Aplikasi SPBE.\nKondisi: kegiatan Audit Aplikasi dilaksanakan oleh auditor\nTIK/Sistem Informasi internal Instansi Pusat/Pemerintah Daerah.\n4\nKriteria tingkat 3 telah terpenuhi dan kegiatan Audit Aplikasi\ndilaksanakan oleh auditor TIK/Sistem Informasi eksternal yang\nmemiliki sertifikasi auditor TIK/Sistem Informasi.\n5\nKriteria tingkat 4 telah terpenuhi dan hasil audit Aplikasi SPBE telah\nditindaklanjuti melalui perbaikan penerapan Aplikasi SPBE.",
+        "section_type": "indikator",
+        "content_length": 908,
+        "word_count": 113
+    },
+    {
+        "metadata": {
+            "domain": {
+                "number": 3,
+                "name": "Manajemen SPBE",
+                "label": "Domain 3: Manajemen SPBE"
+            },
+            "aspek": {
+                "number": 6,
+                "name": "Pelaksanaan Audit TIK",
+                "label": "Aspek 6: Pelaksanaan Audit TIK"
+            },
+            "indikator": {
+                "number": 31,
+                "name": "Tingkat Kematangan Pelaksanaan Audit Keamanan SPBE",
+                "label": "Indikator 31: Tingkat Kematangan Pelaksanaan Audit Keamanan SPBE"
+            },
+            "pertanyaan": "Apakah Instansi Pusat/Pemerintah Daerah melaksanakan Audit Keamanan SPBE?"
+        },
+        "content": "Kegiatan Audit Keamanan SPBE belum atau telah dilaksanakan.\nKondisi: Kegiatan Audit Keamanan dilaksanakan tanpa\nperencanaan yang berkesinambungan.\n2\nKriteria tingkat 1 telah terpenuhi dan kegiatan Audit Keamanan\ndilaksanakan sesuai dengan perencanaan yang berkesinambungan.\nKondisi: Kegiatan Audit Keamanan dilaksanakan tanpa pedoman\nAudit Keamanan.\n3\nKriteria tingkat 2 telah terpenuhi dan kegiatan Audit Keamanan\ndilaksanakan sesuai dengan pedoman Audit Keamanan.\nKondisi: kegiatan Audit Keamanan dilaksanakan oleh auditor\nTIK/Sistem Keamanan Informasi internal Instansi\nPusat/Pemerintah Daerah.\n4\nKriteria tingkat 3 telah terpenuhi dan kegiatan Audit Keamanan\ndilaksanakan oleh auditor TIK/Sistem Keamanan Informasi\neksternal yang memiliki sertifikasi auditor TIK/Sistem Keamanan\nInformasi.\n5\nKriteria tingkat 4 telah terpenuhi dan hasil audit Keamanan SPBE\ntelah ditindaklanjuti melalui perbaikan penerapan Keamanan SPBE.",
+        "section_type": "indikator",
+        "content_length": 925,
+        "word_count": 114
+    },
+    {
+        "metadata": {
+            "domain": {
+                "number": 4,
+                "name": "Layanan SPBE",
+                "label": "Domain 4: Layanan SPBE"
+            },
+            "aspek": {
+                "number": 7,
+                "name": "Layanan Administrasi Pemerintahan Berbasis Elektronik",
+                "label": "Aspek 7: Layanan Administrasi Pemerintahan Berbasis Elektronik"
+            },
+            "indikator": {
+                "number": 32,
+                "name": "Tingkat Kematangan Layanan Perencanaan",
+                "label": "Indikator 32: Tingkat Kematangan Layanan Perencanaan"
+            },
+            "pertanyaan": "Apakah Instansi Pusat/Pemerintah Daerah memiliki Layanan Perencanaan Berbasis Elektronik?"
+        },
+        "content": "tingkat 1 telah terpenuhi dan Layanan Perencanan Berbasis\nElektronik memberikan layanan interaksi terkait perencanaan\nkegiatan pemerintah seperti pencarian informasi, pengunggahan dan\npengunduhan dokumen perencanaan.\n3\nKriteria tingkat 2 telah terpenuhi dan Layanan Perencanaan Berbasis\nElektronik memberikan layanan transaksi kepada pengguna terkait\nperencanaan kegiatan pemerintah seperti otomasi alur kerja,\ntransaksi basis data, validasi data, mekanisme persetujuan, dan\nanalitik data.\n4\nKriteria tingkat 3 telah terpenuhi dan Layanan Perencanaan Berbasis\nElektronik memberikan layanan kolaborasi dengan layanan\nelektronik lain, misalnya layanan penganggaran berbasis elektronik,\nlayanan keuangan berbasis elektronik, layanan pengadaan berbasis\nelektronik, layanan perencanaan berbasis elektronik Instansi\nPusat/Pemerintah Daerah lain, dan/atau layanan SPBE Instansi\nPusat/Pemerintah Daerah lain.\n5\nKriteria tingkat 4 telah terpenuhi dan Layanan Perencanaan Berbasis\nElektronik telah dilakukan perbaikan berdasarkan hasil reviu dan\nevaluasi terhadap perubahan lingkungan, peraturan perundangundangan, teknologi atau kebutuhan Instansi Pusat/Pemerintah\nDaerah.",
+        "section_type": "indikator",
+        "content_length": 1163,
+        "word_count": 134
+    },
+    {
+        "metadata": {
+            "domain": {
+                "number": 4,
+                "name": "Layanan SPBE",
+                "label": "Domain 4: Layanan SPBE"
+            },
+            "aspek": {
+                "number": 7,
+                "name": "Layanan Administrasi Pemerintahan Berbasis Elektronik",
+                "label": "Aspek 7: Layanan Administrasi Pemerintahan Berbasis Elektronik"
+            },
+            "indikator": {
+                "number": 33,
+                "name": "Tingkat Kematangan Layanan Penganggaran",
+                "label": "Indikator 33: Tingkat Kematangan Layanan Penganggaran"
+            },
+            "pertanyaan": "Apakah Instansi Pusat/Pemerintah Daerah memiliki Layanan Penganggaran Berbasis Elektronik?"
+        },
+        "content": "Layanan Penganggaran Berbasis Elektronik hanya memberikan\nlayanan informasi terkait penganggaran kegiatan pemerintah.\n2\nKriteria tingkat 1 telah terpenuhi dan Layanan Penganggaran\nBerbasis Elektronik memberikan layanan interaksi terkait\npenganggaran kegiatan pemerintah seperti pencarian informasi,\npengunggahan dan pengunduhan dokumen penganggaran.\n3\nKriteria tingkat 2 telah terpenuhi dan Layanan Penganggaran\nBerbasis Elektronik memberikan layanan transaksi kepada pengguna\nterkait penganggaran kegiatan pemerintah seperti otomasi alur kerja,\ntransaksi basis data, validasi data, mekanisme persetujuan, dan\nanalitik data.\n4\nKriteria tingkat 3 telah terpenuhi dan Layanan Penganggaran\nBerbasis Elektronik memberikan layanan kolaborasi dengan layanan\nelektronik lain, misalnya layanan perencanaan berbasis elektronik,\nlayanan keuangan berbasis elektronik, layanan pengadaan berbasis\nelektronik, layanan penganggaran berbasis elektronik Instansi\nPusat/Pemerintah Daerah lain, dan/atau layanan SPBE Instansi\nPusat/Pemerintah Daerah lain.\n5\nKriteria tingkat 4 telah terpenuhi dan Layanan Penganggaran\nBerbasis Elektronik telah dilakukan perbaikan berdasarkan hasil\nreviu dan evaluasi terhadap perubahan lingkungan, peraturan\nperundang-undangan, teknologi atau kebutuhan Instansi\nPusat/Pemerintah Daerah.",
+        "section_type": "indikator",
+        "content_length": 1301,
+        "word_count": 148
+    },
+    {
+        "metadata": {
+            "domain": {
+                "number": 4,
+                "name": "Layanan SPBE",
+                "label": "Domain 4: Layanan SPBE"
+            },
+            "aspek": {
+                "number": 7,
+                "name": "Layanan Administrasi Pemerintahan Berbasis Elektronik",
+                "label": "Aspek 7: Layanan Administrasi Pemerintahan Berbasis Elektronik"
+            },
+            "indikator": {
+                "number": 34,
+                "name": "Tingkat Kematangan Layanan Keuangan",
+                "label": "Indikator 34: Tingkat Kematangan Layanan Keuangan"
+            },
+            "pertanyaan": ""
+        },
+        "content": "Layanan Keuangan Berbasis Elektronik hanya memberikan layanan\ninformasi terkait keuangan di Instansi Pusat/Pemerintah.\n2\nKriteria tingkat 1 telah terpenuhi dan Layanan Keuangan Berbasis\nElektronik memberikan layanan interaksi terkait keuangan seperti\npencarian informasi, pengunggahan dan pengunduhan dokumen.\n3\nKriteria tingkat 2 telah terpenuhi dan Layanan Keuangan Berbasis\nElektronik memberikan layanan transaksi kepada pengguna terkait\nkeuangan seperti otomasi alur kerja, transaksi basis data, validasi\ndata, mekanisme persetujuan, dan analitik data.\n4\nKriteria tingkat 3 telah terpenuhi dan Layanan Keuangan Berbasis\nElektronik memberikan layanan kolaborasi dengan layanan\nelektronik lain, misalnya Layanan Penganggaran Berbasis Elektronik,\nLayanan Pengadaan Berbasis Elektronik, Layanan Perencanaan\nBerbasis Elektronik, Layanan Keuangan Berbasis Elektronik\nInstansi Pusat/Pemerintah Daerah lain, dan/atau layanan SPBE\nInstansi Pusat/Pemerintah Daerah lain.\n5\nKriteria tingkat 4 telah terpenuhi dan Layanan Keuangan Berbasis\nElektronik telah dilakukan perbaikan berdasarkan hasil reviu dan\nevaluasi terhadap perubahan lingkungan, peraturan perundangundangan, teknologi atau kebutuhan Instansi Pusat/Pemerintah\nDaerah.",
+        "section_type": "indikator",
+        "content_length": 1224,
+        "word_count": 144
+    },
+    {
+        "metadata": {
+            "domain": {
+                "number": 4,
+                "name": "Layanan SPBE",
+                "label": "Domain 4: Layanan SPBE"
+            },
+            "aspek": {
+                "number": 7,
+                "name": "Layanan Administrasi Pemerintahan Berbasis Elektronik",
+                "label": "Aspek 7: Layanan Administrasi Pemerintahan Berbasis Elektronik"
+            },
+            "indikator": {
+                "number": 35,
+                "name": "Tingkat Kematangan Layanan Pengadaan Barang dan Jasa",
+                "label": "Indikator 35: Tingkat Kematangan Layanan Pengadaan Barang dan Jasa"
+            },
+            "pertanyaan": ""
+        },
+        "content": "Layanan Pengadaan Barang dan Jasa Berbasis Elektronik hanya\nmemberikan layanan informasi terkait pengadaan barang dan jasa di\nInstansi Pusat/Pemerintah.\n2\nKriteria tingkat 1 telah terpenuhi dan Layanan Pengadaan Barang\ndan Jasa Berbasis Elektronik memberikan layanan interaksi terkait\npengadaan barang dan jasa seperti pencarian informasi,\npengunggahan dan pengunduhan dokumen.\n3\nKriteria tingkat 2 telah terpenuhi dan Layanan Pengadaan Barang\ndan Jasa Berbasis Elektronik memberikan layanan transaksi kepada\npengguna terkait pengadaan barang dan jasa seperti otomasi alur\nkerja, transaksi basis data, validasi data, mekanisme persetujuan,\ndan analitik data.\n4\nKriteria tingkat 3 telah terpenuhi dan Layanan Pengadaan Barang\ndan Jasa Berbasis Elektronik memberikan layanan kolaborasi\ndengan layanan elektronik lain, misalnya Layanan Penganggaran\nBerbasis Elektronik, Layanan Perencanaan Berbasis Elektronik,\nLayanan Keuangan Berbasis Elektronik, Layanan Pengadaan Barang\ndan Jasa Berbasis Elektronik Instansi Pusat/Pemerintah Daerah\nlain, dan/atau layanan SPBE Instansi Pusat/Pemerintah Daerah\nlain.\n5\nKriteria tingkat 4 telah terpenuhi dan Layanan Pengadaan Barang\ndan Jasa Berbasis Elektronik telah dilakukan perbaikan berdasarkan\nhasil reviu dan evaluasi terhadap perubahan lingkungan, peraturan\nperundang-undangan, teknologi atau kebutuhan Instansi\nPusat/Pemerintah Daerah.",
+        "section_type": "indikator",
+        "content_length": 1377,
+        "word_count": 171
+    },
+    {
+        "metadata": {
+            "domain": {
+                "number": 4,
+                "name": "Layanan SPBE",
+                "label": "Domain 4: Layanan SPBE"
+            },
+            "aspek": {
+                "number": 7,
+                "name": "Layanan Administrasi Pemerintahan Berbasis Elektronik",
+                "label": "Aspek 7: Layanan Administrasi Pemerintahan Berbasis Elektronik"
+            },
+            "indikator": {
+                "number": 36,
+                "name": "Tingkat Kematangan Layanan Kepegawaian",
+                "label": "Indikator 36: Tingkat Kematangan Layanan Kepegawaian"
+            },
+            "pertanyaan": ""
+        },
+        "content": "Layanan Kepegawaian Berbasis Elektronik hanya memberikan\nlayanan informasi terkait kepegawaian.\n2\nKriteria tingkat 1 telah terpenuhi dan Layanan Kepegawaian Berbasis\nElektronik memberikan layanan interaksi terkait kepegawaian seperti\npencarian informasi, pengunggahan dan pengunduhan dokumen.\n3\nKriteria tingkat 2 telah terpenuhi dan Layanan Kepegawaian Berbasis\nElektronik memberikan layanan transaksi kepada pengguna terkait\nkepegawaian seperti otomasi alur kerja, transaksi basis data, validasi\ndata, mekanisme persetujuan, dan analitik data.\n4\nKriteria tingkat 3 telah terpenuhi dan Layanan Kepegawaian Berbasis\nElektronik memberikan layanan kolaborasi dengan layanan\nelektronik lain, misalnya Layanan Kinerja Berbasis Elektronik,\nLayanan Keuangan Berbasis Elektronik, Layanan Kepegawaian\nBerbasis Elektronik Instansi Pusat/Pemerintah Daerah lain,\ndan/atau layanan SPBE Instansi Pusat/Pemerintah Daerah lain.\n5\nKriteria tingkat 4 telah terpenuhi dan Layanan Kepegawaian Berbasis\nElektronik telah dilakukan perbaikan berdasarkan hasil reviu dan\nevaluasi terhadap perubahan lingkungan, peraturan perundangundangan, teknologi atau kebutuhan Instansi Pusat/Pemerintah\nDaerah.",
+        "section_type": "indikator",
+        "content_length": 1175,
+        "word_count": 137
+    },
+    {
+        "metadata": {
+            "domain": {
+                "number": 4,
+                "name": "Layanan SPBE",
+                "label": "Domain 4: Layanan SPBE"
+            },
+            "aspek": {
+                "number": 7,
+                "name": "Layanan Administrasi Pemerintahan Berbasis Elektronik",
+                "label": "Aspek 7: Layanan Administrasi Pemerintahan Berbasis Elektronik"
+            },
+            "indikator": {
+                "number": 37,
+                "name": "Tingkat Kematangan Layanan Kearsipan Dinamis",
+                "label": "Indikator 37: Tingkat Kematangan Layanan Kearsipan Dinamis"
+            },
+            "pertanyaan": "Apakah Instansi Pusat/Pemerintah Daerah memiliki Layanan Kearsipan Dinamis Berbasis Elektronik?"
+        },
+        "content": "Layanan Kearsipan Dinamis Berbasis Elektronik hanya memberikan\nlayanan informasi terkait kearsipan dinamis.\n2\nKriteria tingkat 1 telah terpenuhi dan Layanan Kearsipan Dinamis\nBerbasis Elektronik memberikan layanan interaksi terkait kearsipan\ndinamis seperti pencarian informasi, pengunggahan dan\npengunduhan dokumen.\n3\nKriteria tingkat 2 telah terpenuhi dan Layanan Kearsipan Dinamis\nBerbasis Elektronik memberikan layanan transaksi kepada\npengguna terkait kearsipan dinamis seperti otomasi alur kerja,\ntransaksi basis data, validasi data, mekanisme persetujuan, dan\nanalitik data.\n4\nKriteria tingkat 3 telah terpenuhi dan Layanan Kearsipan Dinamis\nBerbasis Elektronik memberikan layanan kolaborasi dengan layanan\nelektronik lain, misalnya Layanan Pengadaan Barang dan Jasa\nBerbasis Elektronik, Layanan Kepegawaian Berbasis Elektronik,\nLayanan Kearsipan Dinamis Berbasis Elektronik Instansi\nPusat/Pemerintah Daerah lain, dan/atau layanan SPBE Instansi\nPusat/Pemerintah Daerah lain.\n5\nKriteria tingkat 4 telah terpenuhi dan Layanan Kearsipan Dinamis\nBerbasis Elektronik telah dilakukan perbaikan berdasarkan hasil\nreviu dan evaluasi terhadap perubahan lingkungan, peraturan\nperundang-undangan, teknologi atau kebutuhan Instansi\nPusat/Pemerintah Daerah.",
+        "section_type": "indikator",
+        "content_length": 1251,
+        "word_count": 149
+    },
+    {
+        "metadata": {
+            "domain": {
+                "number": 4,
+                "name": "Layanan SPBE",
+                "label": "Domain 4: Layanan SPBE"
+            },
+            "aspek": {
+                "number": 7,
+                "name": "Layanan Administrasi Pemerintahan Berbasis Elektronik",
+                "label": "Aspek 7: Layanan Administrasi Pemerintahan Berbasis Elektronik"
+            },
+            "indikator": {
+                "number": 38,
+                "name": "Tingkat Kematangan Layanan Pengelolaan Barang Milik Negara/Daerah",
+                "label": "Indikator 38: Tingkat Kematangan Layanan Pengelolaan Barang Milik Negara/Daerah"
+            },
+            "pertanyaan": "Apakah Instansi Pusat/Pemerintah Daerah memiliki Layanan Pengelolaan Barang Milik Negara/Daerah Berbasis Elektronik?"
+        },
+        "content": "Layanan Pengelolaan Barang Milik Negara/Daerah Berbasis\nElektronik hanya memberikan layanan informasi terkait\npengelolaan barang milik negara.\n2\nKriteria tingkat 1 telah terpenuhi dan Layanan Pengelolaan Barang\nMilik Negara/Daerah Berbasis Elektronik memberikan layanan\ninteraksi terkait pengelolaan barang milik negara/daerah seperti\npencarian informasi, pengunggahan dan pengunduhan dokumen.\n3\nKriteria tingkat 2 telah terpenuhi dan Layanan Pengelolaan Barang\nMilik Negara/Daerah Berbasis Elektronik memberikan layanan\ntransaksi kepada pengguna terkait pengelolaan barang milik\nnegara/daerah seperti otomasi alur kerja, transaksi basis data,\nvalidasi data, mekanisme persetujuan, dan analitik data.\n4\nKriteria tingkat 3 telah terpenuhi dan Layanan Pengelolaan Barang\nMilik Negara/Daerah Berbasis Elektronik memberikan layanan\nkolaborasi dengan layanan elektronik lain, misalnya Layanan\nPenganggaran Berbasis Elektronik, Layanan Pengadaan Barang dan\nJasa Berbasis Elektronik, Layanan Keuangan Berbasis Elektronik,\nLayanan Pengelolaan Barang Milik Negara/Daerah Berbasis\nElektronik Instansi Pusat/Pemerintah Daerah lain, dan/atau\nlayanan SPBE Instansi Pusat/Pemerintah Daerah lain.\n5\nKriteria tingkat 4 telah terpenuhi dan Layanan Pengelolaan Barang\nMilik Negara/Daerah Berbasis Elektronik telah dilakukan perbaikan\nberdasarkan hasil reviu dan evaluasi terhadap perubahan\nlingkungan, peraturan perundang-undangan, teknologi atau\nkebutuhan Instansi Pusat/Pemerintah Daerah.",
+        "section_type": "indikator",
+        "content_length": 1472,
+        "word_count": 171
+    },
+    {
+        "metadata": {
+            "domain": {
+                "number": 4,
+                "name": "Layanan SPBE",
+                "label": "Domain 4: Layanan SPBE"
+            },
+            "aspek": {
+                "number": 7,
+                "name": "Layanan Administrasi Pemerintahan Berbasis Elektronik",
+                "label": "Aspek 7: Layanan Administrasi Pemerintahan Berbasis Elektronik"
+            },
+            "indikator": {
+                "number": 39,
+                "name": "Tingkat Kematangan Layanan Pengawasan Internal Pemerintah",
+                "label": "Indikator 39: Tingkat Kematangan Layanan Pengawasan Internal Pemerintah"
+            },
+            "pertanyaan": "Apakah Instansi Pusat/Pemerintah Daerah memiliki Layanan Pengawasan Internal Pemerintah Berbasis Elektronik?"
+        },
+        "content": "Layanan Pengawasan Internal Pemerintah Berbasis Elektronik\nhanya memberikan layanan informasi terkait pengawasan internal\npemerintah.\n2\nKriteria tingkat 1 telah terpenuhi dan Layanan Pengawasan Internal\nPemerintah Berbasis Elektronik memberikan layanan interaksi\nterkait pengawasan internal pemerintah seperti pencarian informasi,\npengunggahan dan pengunduhan dokumen.\n3\nKriteria tingkat 2 telah terpenuhi dan Layanan Pengawasan Internal\nPemerintah Berbasis Elektronik memberikan layanan transaksi\nkepada pengguna terkait pengawasan internal pemerintah seperti\notomasi alur kerja, transaksi basis data, validasi data, mekanisme\npersetujuan, dan analitik data.\n4\nKriteria tingkat 3 telah terpenuhi dan Layanan Pengawasan Internal\nPemerintah Berbasis Elektronik memberikan layanan kolaborasi\ndengan layanan elektronik lain, misalnya Layanan Kepegawaian\nBerbasis Elektronik, Layanan Akuntabilitas Kinerja Berbasis\nElektronik, Layanan Pengawasan Internal Pemerintah Berbasis\nElektronik Instansi Pusat/Pemerintah Daerah lain, dan/atau\nlayanan SPBE Instansi Pusat/Pemerintah Daerah lain.\n5\nKriteria tingkat 4 telah terpenuhi dan Layanan Pengawasan Internal\nBerbasis Elektronik telah dilakukan perbaikan berdasarkan hasil\nreviu dan evaluasi terhadap perubahan lingkungan, peraturan\nperundang-undangan, teknologi atau kebutuhan Instansi\nPusat/Pemerintah Daerah.",
+        "section_type": "indikator",
+        "content_length": 1353,
+        "word_count": 155
+    },
+    {
+        "metadata": {
+            "domain": {
+                "number": 4,
+                "name": "Layanan SPBE",
+                "label": "Domain 4: Layanan SPBE"
+            },
+            "aspek": {
+                "number": 7,
+                "name": "Layanan Administrasi Pemerintahan Berbasis Elektronik",
+                "label": "Aspek 7: Layanan Administrasi Pemerintahan Berbasis Elektronik"
+            },
+            "indikator": {
+                "number": 40,
+                "name": "Tingkat Kematangan Layanan Akuntabilitas Kinerja Organisasi",
+                "label": "Indikator 40: Tingkat Kematangan Layanan Akuntabilitas Kinerja Organisasi"
+            },
+            "pertanyaan": ""
+        },
+        "content": "Layanan Akuntabilitas Kinerja Instansi Pusat/Pemerintah Daerah\nBerbasis Elektronik hanya memberikan layanan informasi terkait\nakuntabilitas kinerja Instansi Pusat/Pemerintah Daerah.\n2\nKriteria tingkat 1 telah terpenuhi dan Layanan Akuntabilitas Kinerja\nInstansi Pusat/Pemerintah Daerah Berbasis Elektronik memberikan\nlayanan interaksi terkait akuntabilitas kinerja Instansi\nPusat/Pemerintah Daerah seperti pencarian informasi, pengunggahan\ndan pengunduhan dokumen.\n3\nKriteria tingkat 2 telah terpenuhi dan Layanan Akuntabilitas Kinerja\nInstansi Pusat/Pemerintah Daerah Berbasis Elektronik memberikan\nlayanan transaksi kepada pengguna terkait akuntabilitas kinerja\nInstansi Pusat/Pemerintah Daerah seperti otomasi alur kerja,\ntransaksi basis data, validasi data, mekanisme persetujuan, dan\nanalitik data.\n4\nKriteria tingkat 3 telah terpenuhi dan Layanan Akuntabilitas Kinerja\nInstansi Pusat/Pemerintah Daerah Berbasis Elektronik memberikan\nlayanan kolaborasi dengan layanan elektronik lain, misalnya Layanan\nPenganggaran Berbasis Elektronik, Layanan Pengadaan Berbasis\nElektronik, Layanan Perencanaan Berbasis Elektronik, Layanan\nKeuangan Berbasis Elektronik, Layanan Akuntabilitas Kinerja Instansi\nPusat/Pemerintah Daerah Berbasis Elektronik Instansi\nPusat/Pemerintah Daerah lain, dan/atau layanan SPBE Instansi\nPusat/Pemerintah Daerah lain.\n5\nKriteria tingkat 4 telah terpenuhi dan Layanan Akuntabilitas Kinerja\nInstansi Pusat/Pemerintah Daerah Berbasis Elektronik telah\ndilakukan perbaikan berdasarkan hasil reviu dan evaluasi terhadap\nperubahan lingkungan, peraturan perundang-undangan, teknologi\natau kebutuhan Instansi Pusat/Pemerintah Daerah.",
+        "section_type": "indikator",
+        "content_length": 1648,
+        "word_count": 181
+    },
+    {
+        "metadata": {
+            "domain": {
+                "number": 4,
+                "name": "Layanan SPBE",
+                "label": "Domain 4: Layanan SPBE"
+            },
+            "aspek": {
+                "number": 7,
+                "name": "Layanan Administrasi Pemerintahan Berbasis Elektronik",
+                "label": "Aspek 7: Layanan Administrasi Pemerintahan Berbasis Elektronik"
+            },
+            "indikator": {
+                "number": 41,
+                "name": "Tingkat Kematangan Layanan Kinerja Pegawai",
+                "label": "Indikator 41: Tingkat Kematangan Layanan Kinerja Pegawai"
+            },
+            "pertanyaan": ""
+        },
+        "content": "Layanan Kinerja Pegawai Berbasis Elektronik hanya memberikan\nlayanan informasi terkait kinerja pegawai.\n2\nKriteria tingkat 1 telah terpenuhi dan Layanan Kinerja Pegawai\nBerbasis Elektronik memberikan layanan interaksi terkait kinerja\npegawai seperti pencarian informasi, pengunggahan dan\npengunduhan dokumen.\n3\nKriteria tingkat 2 telah terpenuhi dan Layanan Kinerja Pegawai\nBerbasis Elektronik memberikan layanan transaksi kepada pengguna\nterkait kinerja pegawai seperti otomasi alur kerja, transaksi basis\ndata, validasi data, mekanisme persetujuan, dan analitik data.\n4\nKriteria tingkat 3 telah terpenuhi dan Layanan Kinerja Pegawai\nBerbasis Elektronik memberikan layanan kolaborasi dengan layanan\nelektronik lain, misalnya Layanan Perencanaan Berbasis Elektronik,\nLayanan Akuntabilitas Berbasis Elektronik, Layanan Kinerja Pegawai\nBerbasis Elektronik Instansi Pusat/Pemerintah Daerah lain,\ndan/atau layanan SPBE Instansi Pusat/Pemerintah Daerah lain.\n5\nKriteria tingkat 4 telah terpenuhi dan Layanan Kinerja Pegawai\nBerbasis Elektronik telah dilakukan perbaikan berdasarkan hasil\nreviu dan evaluasi terhadap perubahan lingkungan, peraturan\nperundang-undangan, teknologi atau kebutuhan Instansi\nPusat/Pemerintah Daerah.",
+        "section_type": "indikator",
+        "content_length": 1221,
+        "word_count": 146
+    },
+    {
+        "metadata": {
+            "domain": {
+                "number": 4,
+                "name": "Layanan SPBE",
+                "label": "Domain 4: Layanan SPBE"
+            },
+            "aspek": {
+                "number": 8,
+                "name": "Layanan Publik Berbasis Elektronik",
+                "label": "Aspek 8: Layanan Publik Berbasis Elektronik"
+            },
+            "indikator": {
+                "number": 42,
+                "name": "Tingkat Kematangan Layanan Pengaduan Pelayanan Publik",
+                "label": "Indikator 42: Tingkat Kematangan Layanan Pengaduan Pelayanan Publik"
+            },
+            "pertanyaan": "Apakah Instansi Pusat/Pemerintah Daerah memiliki Layanan Pengaduan Pelayanan Publik Berbasis Elektronik?"
+        },
+        "content": "Layanan Pengaduan Pelayanan Publik Berbasis Elektronik hanya\nmemberikan layanan informasi terkait pengaduan pelayanan publik.\n2\nKriteria tingkat 1 telah terpenuhi dan Layanan Pengaduan Pelayanan\nPublik Berbasis Elektronik memberikan layanan interaksi terkait\npengaduan pelayanan publik seperti pencarian informasi,\npengunggahan dan pengunduhan dokumen.\n3\nKriteria tingkat 2 telah terpenuhi dan Layanan Pengaduan Pelayanan\nPublik Berbasis Elektronik memberikan layanan transaksi kepada\npengguna terkait pengaduan pelayanan publik seperti otomasi alur\nkerja, transaksi basis data, validasi data, mekanisme persetujuan,\ndan analitik data.\n4\nKriteria tingkat 3 telah terpenuhi dan Layanan Pengaduan Pelayanan\nPublik Berbasis Elektronik memberikan layanan kolaborasi dengan\nlayanan elektronik lain, misalnya Layanan Kepegawaian Berbasis\nElektronik, Layanan Pengaduan Pelayanan Publik Berbasis\nElektronik Instansi Pusat/Pemerintah Daerah lain, dan/atau layanan\nSPBE Instansi Pusat/Pemerintah Daerah lain.\n5\nKriteria tingkat 4 telah terpenuhi dan Layanan Pengaduan Pelayanan\nPublik Berbasis Elektronik telah dilakukan perbaikan berdasarkan\nhasil reviu dan evaluasi terhadap perubahan lingkungan, peraturan\nperundang-undangan, teknologi atau kebutuhan Instansi\nPusat/Pemerintah Daerah.",
+        "section_type": "indikator",
+        "content_length": 1277,
+        "word_count": 151
+    },
+    {
+        "metadata": {
+            "domain": {
+                "number": 4,
+                "name": "Layanan SPBE",
+                "label": "Domain 4: Layanan SPBE"
+            },
+            "aspek": {
+                "number": 8,
+                "name": "Layanan Publik Berbasis Elektronik",
+                "label": "Aspek 8: Layanan Publik Berbasis Elektronik"
+            },
+            "indikator": {
+                "number": 43,
+                "name": "Tingkat Kematangan Layanan Data Terbuka",
+                "label": "Indikator 43: Tingkat Kematangan Layanan Data Terbuka"
+            },
+            "pertanyaan": "Apakah Instansi Pusat/Pemerintah Daerah memiliki Layanan Data Terbuka Berbasis Elektronik?"
+        },
+        "content": "Layanan Data Terbuka Berbasis Elektronik hanya memberikan\nlayanan informasi terkait data terbuka.\n2\nKriteria tingkat 1 telah terpenuhi dan Layanan Data Terbuka Berbasis\nElektronik memberikan layanan interaksi terkait data terbuka seperti\npencarian informasi, pengunggahan dan pengunduhan dokumen.\n3\nKriteria tingkat 2 telah terpenuhi dan Layanan Data Terbuka Berbasis\nElektronik memberikan layanan transaksi kepada pengguna terkait\ndata terbuka seperti otomasi pertukaran data, otomasi alur kerja,\ntransaksi basis data, validasi data, mekanisme persetujuan, dan\nanalitik data.\n4\nKriteria tingkat 3 telah terpenuhi dan Layanan Data Terbuka Berbasis\nElektronik memberikan layanan kolaborasi dengan layanan elektronik\nlain, misalnya Layanan Data Terbuka Berbasis Elektronik Instansi\nPusat/Pemerintah Daerah lain, dan/atau layanan SPBE Instansi\nPusat/Pemerintah Daerah lain.\n5\nKriteria tingkat 4 telah terpenuhi dan Layanan Data Terbuka Berbasis\nElektronik telah dilakukan perbaikan berdasarkan hasil reviu dan\nevaluasi terhadap perubahan lingkungan, peraturan perundangundangan, teknologi atau kebutuhan Instansi Pusat/Pemerintah\nDaerah.",
+        "section_type": "indikator",
+        "content_length": 1134,
+        "word_count": 141
+    },
+    {
+        "metadata": {
+            "domain": {
+                "number": 4,
+                "name": "Layanan SPBE",
+                "label": "Domain 4: Layanan SPBE"
+            },
+            "aspek": {
+                "number": 8,
+                "name": "Layanan Publik Berbasis Elektronik",
+                "label": "Aspek 8: Layanan Publik Berbasis Elektronik"
+            },
+            "indikator": {
+                "number": 44,
+                "name": "Tingkat Kematangan Jaringan Dokumentasi dan Informasi Hukum (JDIH)",
+                "label": "Indikator 44: Tingkat Kematangan Jaringan Dokumentasi dan Informasi Hukum (JDIH)"
+            },
+            "pertanyaan": "Apakah Instansi Pusat/Pemerintah Daerah memiliki Jaringan Dokumentasi dan Informasi Hukum (JDIH) Berbasis Elektronik?"
+        },
+        "content": "Layanan Jaringan Dokumentasi dan Informasi Hukum Berbasis\nElektronik hanya memberikan layanan informasi terkait jaringan\ndokumentasi dan informasi hukum.\n2\nKriteria tingkat 1 telah terpenuhi dan Layanan Jaringan Dokumentasi\ndan Informasi Hukum Berbasis Elektronik memberikan layanan\ninteraksi terkait jaringan dokumentasi dan informasi hukum seperti\npencarian informasi, pengunggahan dan pengunduhan dokumen.\n3\nKriteria tingkat 2 telah terpenuhi dan Layanan Jaringan Dokumentasi\ndan Informasi Hukum Berbasis Elektronik memberikan layanan\ntransaksi kepada pengguna terkait jaringan dokumentasi dan\ninformasi hukum seperti otomasi alur kerja, transaksi basis data,\nvalidasi data, mekanisme persetujuan, dan analitik data.\n4\nKriteria tingkat 3 telah terpenuhi dan Layanan Jaringan Dokumentasi\ndan Informasi Hukum Berbasis Elektronik memberikan layanan\nkolaborasi dengan layanan elektronik lain, misalnya Layanan\nJaringan Dokumentasi dan Informasi Hukum Berbasis Elektronik\nInstansi Pusat/Pemerintah Daerah lain, dan/atau layanan SPBE\nInstansi Pusat/Pemerintah Daerah lain.\n5\nKriteria tingkat 4 telah terpenuhi dan Layanan Jaringan Dokumentasi\ndan Informasi Hukum Berbasis Elektronik telah dilakukan perbaikan\nberdasarkan hasil reviu dan evaluasi terhadap perubahan\nlingkungan, peraturan perundang-undangan, teknologi atau\nkebutuhan Instansi Pusat/Pemerintah Daerah.",
+        "section_type": "indikator",
+        "content_length": 1362,
+        "word_count": 165
+    },
+    {
+        "metadata": {
+            "domain": {
+                "number": 4,
+                "name": "Layanan SPBE",
+                "label": "Domain 4: Layanan SPBE"
+            },
+            "aspek": {
+                "number": 8,
+                "name": "Layanan Publik Berbasis Elektronik",
+                "label": "Aspek 8: Layanan Publik Berbasis Elektronik"
+            },
+            "indikator": {
+                "number": 45,
+                "name": "Tingkat Kematangan Layanan Publik Sektor 1",
+                "label": "Indikator 45: Tingkat Kematangan Layanan Publik Sektor 1"
+            },
+            "pertanyaan": "Apakah Instansi Pusat/Pemerintah Daerah memiliki Layanan Publik Berbasis Elektronik pada Sektor 1?"
+        },
+        "content": "Layanan Publik Sektoral Berbasis Elektronik hanya memberikan\nlayanan informasi terkait Publik Sektoral kegiatan pemerintah.\n2\nKriteria tingkat 1 telah terpenuhi dan Layanan Publik Sektoral\nBerbasis Elektronik memberikan layanan interaksi terkait Publik\nSektoral kegiatan pemerintah seperti pencarian informasi,\npengunggahan dan pengunduhan dokumen Layanan Publik Sektoral.\n3\nKriteria tingkat 2 telah terpenuhi dan Layanan Publik Sektoral\nBerbasis Elektronik memberikan layanan transaksi kepada pengguna\nterkait Publik Sektoral kegiatan pemerintah seperti otomasi alur\nkerja, transaksi basis data, validasi data, mekanisme persetujuan,\ndan analitik data.\n4\nKriteria tingkat 3 telah terpenuhi dan Layanan Publik Sektoral\nBerbasis Elektronik memberikan layanan kolaborasi dengan layanan\nelektronik lain, misalnya Layanan Publik Sektoral Berbasis\nElektronik Instansi Pusat/Pemerintah Daerah lain, dan/atau layanan\nSPBE Instansi Pusat/Pemerintah Daerah lain.\n5\nKriteria tingkat 4 telah terpenuhi dan Layanan Publik Sektoral\nBerbasis Elektronik telah dilakukan perbaikan berdasarkan hasil\nreviu dan evaluasi terhadap perubahan lingkungan, peraturan\nperundang-undangan, teknologi dan kebutuhan Instansi\nPusat/Pemerintah Daerah.",
+        "section_type": "indikator",
+        "content_length": 1220,
+        "word_count": 147
+    },
+    {
+        "metadata": {
+            "domain": {
+                "number": 4,
+                "name": "Layanan SPBE",
+                "label": "Domain 4: Layanan SPBE"
+            },
+            "aspek": {
+                "number": 8,
+                "name": "Layanan Publik Berbasis Elektronik",
+                "label": "Aspek 8: Layanan Publik Berbasis Elektronik"
+            },
+            "indikator": {
+                "number": 46,
+                "name": "Tingkat Kematangan Layanan Publik Sektor 2",
+                "label": "Indikator 46: Tingkat Kematangan Layanan Publik Sektor 2"
+            },
+            "pertanyaan": ""
+        },
+        "content": "Layanan Publik Sektoral Berbasis Elektronik hanya memberikan\nlayanan informasi terkait Publik Sektoral kegiatan pemerintah.\n2\nKriteria tingkat 1 telah terpenuhi dan Layanan Publik Sektoral\nBerbasis Elektronik memberikan layanan interaksi terkait Publik\nSektoral kegiatan pemerintah seperti pencarian informasi,\npengunggahan dan pengunduhan dokumen Layanan Publik Sektoral.\n3\nKriteria tingkat 2 telah terpenuhi dan Layanan Publik Sektoral\nBerbasis Elektronik memberikan layanan transaksi kepada pengguna\nterkait Publik Sektoral kegiatan pemerintah seperti otomasi alur\nkerja, transaksi basis data, validasi data, mekanisme persetujuan,\ndan analitik data.\n4\nKriteria tingkat 3 telah terpenuhi dan Layanan Publik Sektoral\nBerbasis Elektronik memberikan layanan kolaborasi dengan layanan\nelektronik lain, misalnya Layanan Publik Sektoral Berbasis\nElektronik Instansi Pusat/Pemerintah Daerah lain, dan/atau layanan\nSPBE Instansi Pusat/Pemerintah Daerah lain.\n5\nKriteria tingkat 4 telah terpenuhi dan Layanan Publik Sektoral\nBerbasis Elektronik telah dilakukan perbaikan berdasarkan hasil\nreviu dan evaluasi terhadap perubahan lingkungan, peraturan\nperundang-undangan, teknologi dan kebutuhan Instansi\nPusat/Pemerintah Daerah.",
+        "section_type": "indikator",
+        "content_length": 1220,
+        "word_count": 147
+    },
+    {
+        "metadata": {
+            "domain": {
+                "number": 4,
+                "name": "Layanan SPBE",
+                "label": "Domain 4: Layanan SPBE"
+            },
+            "aspek": {
+                "number": 8,
+                "name": "Layanan Publik Berbasis Elektronik",
+                "label": "Aspek 8: Layanan Publik Berbasis Elektronik"
+            },
+            "indikator": {
+                "number": 47,
+                "name": "Tingkat Kematangan Layanan Publik Sektor 3",
+                "label": "Indikator 47: Tingkat Kematangan Layanan Publik Sektor 3"
+            },
+            "pertanyaan": "Apakah Instansi Pusat/Pemerintah Daerah memiliki Layanan Publik Berbasis Elektronik pada Sektor 3?"
+        },
+        "content": "Layanan Publik Sektoral Berbasis Elektronik hanya memberikan\nlayanan informasi terkait Publik Sektoral kegiatan pemerintah.\n2\nKriteria tingkat 1 telah terpenuhi dan Layanan Publik Sektoral\nBerbasis Elektronik memberikan layanan interaksi terkait Publik\nSektoral kegiatan pemerintah seperti pencarian informasi,\npengunggahan dan pengunduhan dokumen Layanan Publik Sektoral.\n3\nKriteria tingkat 2 telah terpenuhi dan Layanan Publik Sektoral\nBerbasis Elektronik memberikan layanan transaksi kepada pengguna\nterkait Publik Sektoral kegiatan pemerintah seperti otomasi alur\nkerja, transaksi basis data, validasi data, mekanisme persetujuan,\ndan analitik data.\n4\nKriteria tingkat 3 telah terpenuhi dan Layanan Publik Sektoral\nBerbasis Elektronik memberikan layanan kolaborasi dengan layanan\nelektronik lain, misalnya Layanan Publik Sektoral Berbasis\nElektronik Instansi Pusat/Pemerintah Daerah lain, dan/atau layanan\nSPBE Instansi Pusat/Pemerintah Daerah lain.\n5\nKriteria tingkat 4 telah terpenuhi dan Layanan Publik Sektoral\nBerbasis Elektronik telah dilakukan perbaikan berdasarkan hasil\nreviu dan evaluasi terhadap perubahan lingkungan, peraturan\nperundang-undangan, teknologi dan kebutuhan Instansi\nPusat/Pemerintah Daerah.",
+        "section_type": "indikator",
+        "content_length": 1220,
+        "word_count": 147
+    }
+]

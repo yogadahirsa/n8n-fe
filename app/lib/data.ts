@@ -2,6 +2,48 @@
 
 import { StateBot } from '@/app/lib/definition';
 
+export async function fetchRAG(
+  prevState: StateBot,
+  formData: FormData
+): Promise<StateBot> {
+  const url = process.env.FLASK_RAG_URL || '';
+
+  try {
+    const message = String(formData.get("message") || "").trim();
+    const sessionId = String(formData.get("sessionId") || "user_123").trim();
+
+    console.log('RAG Request:', { url, message, sessionId });
+
+    const body = new FormData();
+    body.append("message", message);
+    body.append("sessionId", sessionId);
+
+    const response = await fetch(url, {
+      method: "POST",
+      body,
+    });
+
+    console.log('RAG Response status:', response.status);
+
+    if (!response.ok) {
+      const errorText = await response.text();
+      console.error('RAG Response error:', errorText);
+      throw new Error(`Request failed with status ${response.status}: ${errorText}`);
+    }
+
+    const data = await response.json();
+    console.log('RAG Response data:', data);
+    if (!data || !data.message) {
+      throw new Error("Invalid response from API");
+    }
+
+    return { message: data.message, status: "ok" };
+  } catch (err) {
+    console.error('RAG Error:', err);
+    return { message: null, status: "failed" };
+  }
+}
+
 export async function fetchGemini(
   prevState: StateBot,
   formData: FormData
