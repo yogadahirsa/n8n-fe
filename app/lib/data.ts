@@ -1,6 +1,6 @@
 'use server';
 
-import { StateBot } from '@/app/lib/definition';
+import { StateBot, StateDrive } from '@/app/lib/definition';
 
 export async function fetchRAG(
   prevState: StateBot,
@@ -77,5 +77,29 @@ export async function fetchGemini(
   } catch (err) {
     console.error(err);
     return { message: null, status: "failed" };
+  }
+}
+
+export async function fetchGDrive(): Promise<StateDrive> {
+  const url = process.env.N8N_URL_GDRIVE || '';
+
+  try {
+    const response = await fetch(url, {
+      method: "GET",
+    });
+
+    if (!response.ok) {
+      throw new Error(`Request failed with status ${response.status}`);
+    }
+
+    const data = await response.json();
+    if (!data) {
+      throw new Error("Empty response from Google Drive API");
+    }
+
+    return { data: data, status: "ok" };
+  } catch (err) {
+    console.error(err);
+    return { data: null, status: "failed" };
   }
 }

@@ -30,6 +30,13 @@ export default function Home() {
           <Link className="text-blue-500 hover:underline" href="/rag">RAG</Link> 
         </li>
       </ul>
+
+      <p>MCP</p>
+      <ul className="list-disc pl-5">
+        <li>
+          <Link className="text-blue-500 hover:underline" href="/gdrive">List Google Drive</Link> 
+        </li>
+      </ul>
     </div>
   );
 }

@@ -6,7 +6,7 @@ import { useState } from 'react';
 export default function Extract() {
   const [data, setData] = useState([]);
   const [loading, setLoading] = useState(false);
-  const [error, setError] = useState(null);
+  const [error, setError] = useState<string | null>(null);
 
   async function sendPdf() {
     setLoading(true);
@@ -45,7 +45,7 @@ export default function Extract() {
 
     } catch (e) {
       console.error("Network or JSON parsing error:", e);
-      setError(`An unexpected error occurred: ${e.message}`);
+      setError(`An unexpected error occurred: ${String(e)}`);
     } finally {
       setLoading(false);
     }

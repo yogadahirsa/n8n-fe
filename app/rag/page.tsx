@@ -22,7 +22,6 @@ export default function RagPage() {
           <label className="font-bold" htmlFor="message">Pertanyaan:</label>
           <div className="flex flex-col gap-3">
             <textarea
-              type="text"
               id="message"
               name="message"
               className="border border-1 border-gray-300 w-100 h-30 p-2 rounded w-full"
@@ -36,7 +35,7 @@ export default function RagPage() {
           </div>
         </form>
         <div>
-          <h3 className="font-bold" htmlFor="message">Jawaban:</h3>
+          <h3 className="font-bold">Jawaban:</h3>
           {pending ? (
             <div className="text-gray-400 italic">Loading...</div>
           ) : state?.message ? (

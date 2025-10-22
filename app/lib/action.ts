@@ -3,7 +3,7 @@
 import sql from '@/app/lib/db';
 import { signIn } from '@/auth';
 import { AuthError } from 'next-auth';
-import { User } from '@/lib/definition';
+import { User } from './definition';
  
 export async function authenticate(
   prevState: string | undefined,

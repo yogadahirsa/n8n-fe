@@ -17,7 +17,7 @@ export async function POST() {
     
     // 3. Append the Buffer as a Blob or File
     // Note: Node.js's global fetch supports Blob/File for FormData
-    const pdfFile = new Blob([pdfBuffer], { type: 'application/pdf' });
+    const pdfFile = new Blob([new Uint8Array(pdfBuffer)], { type: 'application/pdf' });
     
     formData.append("dataPdf", pdfFile, "sample.pdf"); 
 
